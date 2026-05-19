@@ -1,1 +1,0 @@
-/home/alux-autopilot22/SUPER-ROS2/build/marsim_render/ament_cmake_environment_hooks/local_setup.sh

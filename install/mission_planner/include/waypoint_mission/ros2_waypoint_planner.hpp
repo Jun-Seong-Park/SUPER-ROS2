@@ -1,1 +1,0 @@
-/home/alux-autopilot22/SUPER-ROS2/mission_planner/include/waypoint_mission/ros2_waypoint_planner.hpp

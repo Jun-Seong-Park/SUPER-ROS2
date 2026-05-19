@@ -1,1 +1,0 @@
-/home/alux-autopilot22/SUPER-ROS2/mission_planner/launch/benchmark_dense.launch.py

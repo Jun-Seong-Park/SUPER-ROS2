@@ -1,1 +1,0 @@
-/home/alux-autopilot22/SUPER-ROS2/mission_planner/include/utils/yaml_loader.hpp

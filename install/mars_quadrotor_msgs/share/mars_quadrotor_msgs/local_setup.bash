@@ -1,1 +1,0 @@
-/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs/ament_cmake_environment_hooks/local_setup.bash

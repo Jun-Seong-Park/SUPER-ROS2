@@ -1,1 +1,0 @@
-/home/alux-autopilot22/SUPER-ROS2/super_planner/include/traj_opt/backup_traj_optimizer_s4.h

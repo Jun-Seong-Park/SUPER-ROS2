@@ -1,1 +1,0 @@
-/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs/rosidl_typesupport_introspection_cpp/mars_quadrotor_msgs/msg/detail/traking_performance__rosidl_typesupport_introspection_cpp.hpp

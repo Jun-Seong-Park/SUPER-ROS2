@@ -1,1 +1,0 @@
-/home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/mars_quadrotor_msgs/ros2_msg/PolynomialTrajectory.msg
