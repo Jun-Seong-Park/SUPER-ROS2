@@ -1,4 +1,0 @@
-Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/mission_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/mission_planner -- -j16 -l16
-Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/mission_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/mission_planner -- -j16 -l16
-Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/mission_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/mission_planner
-Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/mission_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/mission_planner

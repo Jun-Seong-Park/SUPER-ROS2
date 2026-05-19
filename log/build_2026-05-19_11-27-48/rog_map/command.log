@@ -1,0 +1,6 @@
+Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/rog_map': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alux-autopilot22/SUPER-ROS2/rog_map -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/rog_map
+Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/rog_map' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alux-autopilot22/SUPER-ROS2/rog_map -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/rog_map
+Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/rog_map': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/rog_map -- -j16 -l16
+Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/rog_map' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/rog_map -- -j16 -l16
+Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/rog_map': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/rog_map
+Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/rog_map' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/rog_map

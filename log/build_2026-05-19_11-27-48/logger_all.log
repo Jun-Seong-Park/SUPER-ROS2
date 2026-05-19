@@ -1,0 +1,516 @@
+[0.054s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.054s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a7848de1390>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a7848de0e80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a7848de0e80>>)
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.136s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/alux-autopilot22/SUPER-ROS2'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim) by extension 'ros'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim) by extensions ['cmake', 'python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim) by extension 'cmake'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim) by extension 'python'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim) by extensions ['python_setup_py']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim) by extension 'python_setup_py'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/mars_quadrotor_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/mars_quadrotor_msgs) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/mars_quadrotor_msgs) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/mars_quadrotor_msgs) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/mars_quadrotor_msgs) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/mars_quadrotor_msgs) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/mars_quadrotor_msgs) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/mars_quadrotor_msgs) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/mars_quadrotor_msgs) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'mars_uav_sim/mars_quadrotor_msgs' with type 'ros.ament_cmake' and name 'mars_quadrotor_msgs'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/marsim_render) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/marsim_render) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/marsim_render) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/marsim_render) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/marsim_render) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/marsim_render) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/marsim_render) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/marsim_render) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/marsim_render) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'mars_uav_sim/marsim_render' with type 'ros.ament_cmake' and name 'marsim_render'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/perfect_drone_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/perfect_drone_sim) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/perfect_drone_sim) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/perfect_drone_sim) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/perfect_drone_sim) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/perfect_drone_sim) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/perfect_drone_sim) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/perfect_drone_sim) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(mars_uav_sim/perfect_drone_sim) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'mars_uav_sim/perfect_drone_sim' with type 'ros.ament_cmake' and name 'perfect_drone_sim'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(misc) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(misc) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(misc) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(misc) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(misc) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(misc) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(misc) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(misc) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(misc) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(misc) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(misc) by extension 'cmake'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(misc) by extension 'python'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(misc) by extensions ['python_setup_py']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(misc) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(mission_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(mission_planner) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(mission_planner) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(mission_planner) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(mission_planner) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(mission_planner) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(mission_planner) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(mission_planner) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(mission_planner) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'mission_planner' with type 'ros.ament_cmake' and name 'mission_planner'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(rog_map) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(rog_map) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(rog_map) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(rog_map) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(rog_map) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(rog_map) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(rog_map) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(rog_map) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(rog_map) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'rog_map' with type 'ros.ament_cmake' and name 'rog_map'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(super_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(super_planner) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(super_planner) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(super_planner) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(super_planner) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(super_planner) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(super_planner) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(super_planner) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(super_planner) by extension 'ros'
+[0.167s] DEBUG:colcon.colcon_core.package_identification:Package 'super_planner' with type 'ros.ament_cmake' and name 'super_planner'
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.185s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 387 installed packages in /opt/ros/humble
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'mars_quadrotor_msgs' build argument 'cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'mars_quadrotor_msgs' build argument 'cmake_target' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'mars_quadrotor_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'mars_quadrotor_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'mars_quadrotor_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'mars_quadrotor_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'mars_quadrotor_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'mars_quadrotor_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'mars_quadrotor_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.212s] DEBUG:colcon.colcon_core.verb:Building package 'mars_quadrotor_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs', 'merge_install': False, 'path': '/home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/mars_quadrotor_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'marsim_render' build argument 'cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'marsim_render' build argument 'cmake_target' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'marsim_render' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'marsim_render' build argument 'cmake_clean_cache' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'marsim_render' build argument 'cmake_clean_first' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'marsim_render' build argument 'cmake_force_configure' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'marsim_render' build argument 'ament_cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'marsim_render' build argument 'catkin_cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'marsim_render' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.212s] DEBUG:colcon.colcon_core.verb:Building package 'marsim_render' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alux-autopilot22/SUPER-ROS2/build/marsim_render', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render', 'merge_install': False, 'path': '/home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/marsim_render', 'symlink_install': True, 'test_result_base': None}
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'mission_planner' build argument 'cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'mission_planner' build argument 'cmake_target' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'mission_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'mission_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'mission_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'mission_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'mission_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'mission_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'mission_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.212s] DEBUG:colcon.colcon_core.verb:Building package 'mission_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alux-autopilot22/SUPER-ROS2/build/mission_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner', 'merge_install': False, 'path': '/home/alux-autopilot22/SUPER-ROS2/mission_planner', 'symlink_install': True, 'test_result_base': None}
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'rog_map' build argument 'cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'rog_map' build argument 'cmake_target' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'rog_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'rog_map' build argument 'cmake_clean_cache' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'rog_map' build argument 'cmake_clean_first' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'rog_map' build argument 'cmake_force_configure' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'rog_map' build argument 'ament_cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'rog_map' build argument 'catkin_cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'rog_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.212s] DEBUG:colcon.colcon_core.verb:Building package 'rog_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alux-autopilot22/SUPER-ROS2/build/rog_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alux-autopilot22/SUPER-ROS2/install/rog_map', 'merge_install': False, 'path': '/home/alux-autopilot22/SUPER-ROS2/rog_map', 'symlink_install': True, 'test_result_base': None}
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'perfect_drone_sim' build argument 'cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'perfect_drone_sim' build argument 'cmake_target' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'perfect_drone_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'perfect_drone_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'perfect_drone_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'perfect_drone_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'perfect_drone_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'perfect_drone_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'perfect_drone_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.213s] DEBUG:colcon.colcon_core.verb:Building package 'perfect_drone_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim', 'merge_install': False, 'path': '/home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/perfect_drone_sim', 'symlink_install': True, 'test_result_base': None}
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'super_planner' build argument 'cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'super_planner' build argument 'cmake_target' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'super_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'super_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'super_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'super_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'super_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'super_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'super_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.213s] DEBUG:colcon.colcon_core.verb:Building package 'super_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alux-autopilot22/SUPER-ROS2/build/super_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alux-autopilot22/SUPER-ROS2/install/super_planner', 'merge_install': False, 'path': '/home/alux-autopilot22/SUPER-ROS2/super_planner', 'symlink_install': True, 'test_result_base': None}
+[0.213s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.214s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.214s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/mars_quadrotor_msgs' with build type 'ament_cmake'
+[0.214s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/mars_quadrotor_msgs'
+[0.215s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.216s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.216s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.218s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/marsim_render' with build type 'ament_cmake'
+[0.218s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/marsim_render'
+[0.218s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.218s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.220s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alux-autopilot22/SUPER-ROS2/rog_map' with build type 'ament_cmake'
+[0.220s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alux-autopilot22/SUPER-ROS2/rog_map'
+[0.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.222s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alux-autopilot22/SUPER-ROS2/mission_planner' with build type 'ament_cmake'
+[0.222s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alux-autopilot22/SUPER-ROS2/mission_planner'
+[0.222s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.222s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/mars_quadrotor_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs
+[0.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/marsim_render': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/marsim_render -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render
+[0.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/rog_map': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alux-autopilot22/SUPER-ROS2/rog_map -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/rog_map
+[0.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/mission_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alux-autopilot22/SUPER-ROS2/mission_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/mission_planner
+[1.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/mars_quadrotor_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs
+[1.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs -- -j16 -l16
+[2.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/mission_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alux-autopilot22/SUPER-ROS2/mission_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/mission_planner
+[2.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/mission_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/mission_planner -- -j16 -l16
+[2.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/rog_map' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alux-autopilot22/SUPER-ROS2/rog_map -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/rog_map
+[2.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/rog_map': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/rog_map -- -j16 -l16
+[3.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/marsim_render' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/marsim_render -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render
+[3.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/marsim_render': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/marsim_render -- -j16 -l16
+[4.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs -- -j16 -l16
+[4.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs
+[6.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mars_quadrotor_msgs)
+[6.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs
+[6.124s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs' for CMake module files
+[6.125s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs' for CMake config files
+[6.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('mars_quadrotor_msgs', 'cmake_prefix_path')
+[6.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/hook/cmake_prefix_path.ps1'
+[6.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/hook/cmake_prefix_path.dsv'
+[6.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/hook/cmake_prefix_path.sh'
+[6.129s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib'
+[6.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('mars_quadrotor_msgs', 'ld_library_path_lib')
+[6.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/hook/ld_library_path_lib.ps1'
+[6.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/hook/ld_library_path_lib.dsv'
+[6.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/hook/ld_library_path_lib.sh'
+[6.131s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/bin'
+[6.131s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/pkgconfig/mars_quadrotor_msgs.pc'
+[6.132s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/python3.10/site-packages'
+[6.132s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/bin'
+[6.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/package.ps1'
+[6.134s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/package.dsv'
+[6.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/package.sh'
+[6.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/package.bash'
+[6.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/package.zsh'
+[6.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/colcon-core/packages/mars_quadrotor_msgs)
+[6.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mars_quadrotor_msgs)
+[6.139s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs' for CMake module files
+[6.140s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs' for CMake config files
+[6.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('mars_quadrotor_msgs', 'cmake_prefix_path')
+[6.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/hook/cmake_prefix_path.ps1'
+[6.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/hook/cmake_prefix_path.dsv'
+[6.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/hook/cmake_prefix_path.sh'
+[6.143s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib'
+[6.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('mars_quadrotor_msgs', 'ld_library_path_lib')
+[6.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/hook/ld_library_path_lib.ps1'
+[6.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/hook/ld_library_path_lib.dsv'
+[6.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/hook/ld_library_path_lib.sh'
+[6.145s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/bin'
+[6.145s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/pkgconfig/mars_quadrotor_msgs.pc'
+[6.145s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/python3.10/site-packages'
+[6.146s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/bin'
+[6.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/package.ps1'
+[6.147s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/package.dsv'
+[6.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/package.sh'
+[6.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/package.bash'
+[6.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/package.zsh'
+[6.150s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/colcon-core/packages/mars_quadrotor_msgs)
+[12.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/marsim_render' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/marsim_render -- -j16 -l16
+[12.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/marsim_render': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/marsim_render
+[15.322s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(marsim_render)
+[15.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/marsim_render' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/marsim_render
+[15.323s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render' for CMake module files
+[15.323s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render' for CMake config files
+[15.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('marsim_render', 'cmake_prefix_path')
+[15.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/hook/cmake_prefix_path.ps1'
+[15.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/hook/cmake_prefix_path.dsv'
+[15.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/hook/cmake_prefix_path.sh'
+[15.327s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/lib'
+[15.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('marsim_render', 'ld_library_path_lib')
+[15.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/hook/ld_library_path_lib.ps1'
+[15.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/hook/ld_library_path_lib.dsv'
+[15.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/hook/ld_library_path_lib.sh'
+[15.327s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/bin'
+[15.327s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/lib/pkgconfig/marsim_render.pc'
+[15.327s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/lib/python3.10/site-packages'
+[15.328s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/bin'
+[15.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/package.ps1'
+[15.328s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/package.dsv'
+[15.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/package.sh'
+[15.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/package.bash'
+[15.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/package.zsh'
+[15.329s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/colcon-core/packages/marsim_render)
+[15.329s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(marsim_render)
+[15.329s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render' for CMake module files
+[15.329s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render' for CMake config files
+[15.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('marsim_render', 'cmake_prefix_path')
+[15.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/hook/cmake_prefix_path.ps1'
+[15.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/hook/cmake_prefix_path.dsv'
+[15.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/hook/cmake_prefix_path.sh'
+[15.332s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/lib'
+[15.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('marsim_render', 'ld_library_path_lib')
+[15.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/hook/ld_library_path_lib.ps1'
+[15.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/hook/ld_library_path_lib.dsv'
+[15.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/hook/ld_library_path_lib.sh'
+[15.332s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/bin'
+[15.333s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/lib/pkgconfig/marsim_render.pc'
+[15.333s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/lib/python3.10/site-packages'
+[15.333s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/bin'
+[15.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/package.ps1'
+[15.333s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/package.dsv'
+[15.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/package.sh'
+[15.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/package.bash'
+[15.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/marsim_render/package.zsh'
+[15.334s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/share/colcon-core/packages/marsim_render)
+[15.334s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/perfect_drone_sim' with build type 'ament_cmake'
+[15.334s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/perfect_drone_sim'
+[15.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim': AMENT_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/lib:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/perfect_drone_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim
+[18.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim' returned '0': AMENT_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/lib:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/perfect_drone_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim
+[18.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim': AMENT_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/lib:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim -- -j16 -l16
+[19.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/rog_map' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/rog_map -- -j16 -l16
+[19.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/rog_map': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/rog_map
+[20.041s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rog_map)
+[20.041s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/rog_map' for CMake module files
+[20.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/rog_map' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/rog_map
+[20.042s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/rog_map' for CMake config files
+[20.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('rog_map', 'cmake_prefix_path')
+[20.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/hook/cmake_prefix_path.ps1'
+[20.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/hook/cmake_prefix_path.dsv'
+[20.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/hook/cmake_prefix_path.sh'
+[20.044s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/lib'
+[20.044s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/bin'
+[20.044s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/lib/pkgconfig/rog_map.pc'
+[20.044s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/lib/python3.10/site-packages'
+[20.044s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/bin'
+[20.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/package.ps1'
+[20.045s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/package.dsv'
+[20.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/package.sh'
+[20.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/package.bash'
+[20.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/package.zsh'
+[20.046s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/colcon-core/packages/rog_map)
+[20.047s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rog_map)
+[20.047s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/rog_map' for CMake module files
+[20.048s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/rog_map' for CMake config files
+[20.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('rog_map', 'cmake_prefix_path')
+[20.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/hook/cmake_prefix_path.ps1'
+[20.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/hook/cmake_prefix_path.dsv'
+[20.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/hook/cmake_prefix_path.sh'
+[20.050s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/lib'
+[20.050s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/bin'
+[20.050s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/lib/pkgconfig/rog_map.pc'
+[20.051s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/lib/python3.10/site-packages'
+[20.051s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/bin'
+[20.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/package.ps1'
+[20.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/package.dsv'
+[20.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/package.sh'
+[20.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/package.bash'
+[20.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/package.zsh'
+[20.054s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/colcon-core/packages/rog_map)
+[20.054s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alux-autopilot22/SUPER-ROS2/super_planner' with build type 'ament_cmake'
+[20.054s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alux-autopilot22/SUPER-ROS2/super_planner'
+[20.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.054s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/super_planner': AMENT_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map/lib:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alux-autopilot22/SUPER-ROS2/super_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/super_planner
+[23.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/super_planner' returned '0': AMENT_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map/lib:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alux-autopilot22/SUPER-ROS2/super_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/super_planner
+[23.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/super_planner': AMENT_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map/lib:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/super_planner -- -j16 -l16
+[35.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/mission_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/mission_planner -- -j16 -l16
+[35.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/mission_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/mission_planner
+[35.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mission_planner)
+[35.945s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner' for CMake module files
+[35.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/mission_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/mission_planner
+[35.946s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner' for CMake config files
+[35.947s] Level 1:colcon.colcon_core.shell:create_environment_hook('mission_planner', 'cmake_prefix_path')
+[35.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/hook/cmake_prefix_path.ps1'
+[35.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/hook/cmake_prefix_path.dsv'
+[35.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/hook/cmake_prefix_path.sh'
+[35.949s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/lib'
+[35.949s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/bin'
+[35.949s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/lib/pkgconfig/mission_planner.pc'
+[35.949s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/lib/python3.10/site-packages'
+[35.950s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/bin'
+[35.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/package.ps1'
+[35.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/package.dsv'
+[35.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/package.sh'
+[35.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/package.bash'
+[35.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/package.zsh'
+[35.953s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/colcon-core/packages/mission_planner)
+[35.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mission_planner)
+[35.954s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner' for CMake module files
+[35.955s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner' for CMake config files
+[35.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('mission_planner', 'cmake_prefix_path')
+[35.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/hook/cmake_prefix_path.ps1'
+[35.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/hook/cmake_prefix_path.dsv'
+[35.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/hook/cmake_prefix_path.sh'
+[35.958s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/lib'
+[35.958s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/bin'
+[35.958s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/lib/pkgconfig/mission_planner.pc'
+[35.958s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/lib/python3.10/site-packages'
+[35.958s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/bin'
+[35.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/package.ps1'
+[35.960s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/package.dsv'
+[35.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/package.sh'
+[35.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/package.bash'
+[35.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/package.zsh'
+[35.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/colcon-core/packages/mission_planner)
+[52.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim' returned '0': AMENT_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/lib:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim -- -j16 -l16
+[52.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim': AMENT_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/lib:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim
+[52.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perfect_drone_sim)
+[52.866s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim' for CMake module files
+[52.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim' returned '0': AMENT_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/lib:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim
+[52.867s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim' for CMake config files
+[52.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('perfect_drone_sim', 'cmake_prefix_path')
+[52.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/hook/cmake_prefix_path.ps1'
+[52.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/hook/cmake_prefix_path.dsv'
+[52.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/hook/cmake_prefix_path.sh'
+[52.868s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/lib'
+[52.868s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/bin'
+[52.868s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/lib/pkgconfig/perfect_drone_sim.pc'
+[52.869s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/lib/python3.10/site-packages'
+[52.869s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/bin'
+[52.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/package.ps1'
+[52.869s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/package.dsv'
+[52.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/package.sh'
+[52.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/package.bash'
+[52.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/package.zsh'
+[52.870s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/colcon-core/packages/perfect_drone_sim)
+[52.870s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perfect_drone_sim)
+[52.870s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim' for CMake module files
+[52.870s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim' for CMake config files
+[52.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('perfect_drone_sim', 'cmake_prefix_path')
+[52.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/hook/cmake_prefix_path.ps1'
+[52.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/hook/cmake_prefix_path.dsv'
+[52.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/hook/cmake_prefix_path.sh'
+[52.872s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/lib'
+[52.872s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/bin'
+[52.872s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/lib/pkgconfig/perfect_drone_sim.pc'
+[52.872s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/lib/python3.10/site-packages'
+[52.873s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/bin'
+[52.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/package.ps1'
+[52.873s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/package.dsv'
+[52.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/package.sh'
+[52.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/package.bash'
+[52.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/package.zsh'
+[52.874s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/colcon-core/packages/perfect_drone_sim)
+[82.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/super_planner' returned '0': AMENT_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map/lib:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/super_planner -- -j16 -l16
+[82.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/super_planner': AMENT_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map/lib:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/super_planner
+[83.683s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(super_planner)
+[83.684s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/super_planner' for CMake module files
+[83.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/super_planner' returned '0': AMENT_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map/lib:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/super_planner
+[83.684s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/super_planner' for CMake config files
+[83.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('super_planner', 'cmake_prefix_path')
+[83.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/hook/cmake_prefix_path.ps1'
+[83.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/hook/cmake_prefix_path.dsv'
+[83.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/hook/cmake_prefix_path.sh'
+[83.686s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/lib'
+[83.686s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/bin'
+[83.686s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/lib/pkgconfig/super_planner.pc'
+[83.686s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/lib/python3.10/site-packages'
+[83.687s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/bin'
+[83.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/package.ps1'
+[83.687s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/package.dsv'
+[83.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/package.sh'
+[83.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/package.bash'
+[83.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/package.zsh'
+[83.688s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/colcon-core/packages/super_planner)
+[83.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(super_planner)
+[83.688s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/super_planner' for CMake module files
+[83.688s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/super_planner' for CMake config files
+[83.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('super_planner', 'cmake_prefix_path')
+[83.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/hook/cmake_prefix_path.ps1'
+[83.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/hook/cmake_prefix_path.dsv'
+[83.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/hook/cmake_prefix_path.sh'
+[83.690s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/lib'
+[83.690s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/bin'
+[83.690s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/lib/pkgconfig/super_planner.pc'
+[83.690s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/lib/python3.10/site-packages'
+[83.690s] Level 1:colcon.colcon_core.environment:checking '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/bin'
+[83.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/package.ps1'
+[83.690s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/package.dsv'
+[83.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/package.sh'
+[83.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/package.bash'
+[83.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/package.zsh'
+[83.691s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/colcon-core/packages/super_planner)
+[83.691s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[83.692s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[83.692s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[83.692s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[83.695s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[83.695s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[83.695s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[83.703s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[83.704s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alux-autopilot22/SUPER-ROS2/install/local_setup.ps1'
+[83.704s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alux-autopilot22/SUPER-ROS2/install/_local_setup_util_ps1.py'
+[83.705s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alux-autopilot22/SUPER-ROS2/install/setup.ps1'
+[83.706s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alux-autopilot22/SUPER-ROS2/install/local_setup.sh'
+[83.706s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alux-autopilot22/SUPER-ROS2/install/_local_setup_util_sh.py'
+[83.707s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alux-autopilot22/SUPER-ROS2/install/setup.sh'
+[83.708s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alux-autopilot22/SUPER-ROS2/install/local_setup.bash'
+[83.709s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alux-autopilot22/SUPER-ROS2/install/setup.bash'
+[83.710s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alux-autopilot22/SUPER-ROS2/install/local_setup.zsh'
+[83.711s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alux-autopilot22/SUPER-ROS2/install/setup.zsh'

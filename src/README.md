@@ -128,7 +128,7 @@ Currently, **ROS1 Noetic** serves as the **Tier 1** supported platform for SUPER
 
 ```bash
 mkdir -p super_ws/src && cd super_ws/src
-git clone https://github.com/Jun-Seong-Park/SUPER-ROS2.git
+git clone https://github.com/hku-mars/SUPER.git
 cd ..
 colcon build --symlink-install
 # add to debug:  --event-handlers console_direct+ 

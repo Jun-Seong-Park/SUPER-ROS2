@@ -1,0 +1,354 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- ROS version: HUMBLE
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.19") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rog_map: 0.0.0 (/home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/cmake)
+-- Found mars_quadrotor_msgs: 2.0.8 (/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake)
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1") found components: C 
+-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3.1") 
+-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.55") 
+-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") 
+-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.7.0")  
+-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.12.1") 
+-- Found utf8cpp: /usr/include/utf8cpp  
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- looking for PCL_OCTREE
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- looking for PCL_SEARCH
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- looking for PCL_SAMPLE_CONSENSUS
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- looking for PCL_FILTERS
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- looking for PCL_2D
+-- Found PCL_2D: /usr/include/pcl-1.12  
+-- looking for PCL_GEOMETRY
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+-- looking for PCL_IO
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- looking for PCL_FEATURES
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- looking for PCL_ML
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- looking for PCL_SEGMENTATION
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- looking for PCL_VISUALIZATION
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- looking for PCL_SURFACE
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- looking for PCL_REGISTRATION
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- looking for PCL_KEYPOINTS
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- looking for PCL_TRACKING
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- looking for PCL_RECOGNITION
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- looking for PCL_STEREO
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- looking for PCL_APPS
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- looking for PCL_IN_HAND_SCANNER
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+-- looking for PCL_MODELER
+-- Found PCL_MODELER: /usr/include/pcl-1.12  
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+-- looking for PCL_OUTOFCORE
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- looking for PCL_PEOPLE
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alux-autopilot22/SUPER-ROS2/build/super_planner
+[ 30%] [32mBuilding CXX object CMakeFiles/super.dir/src/super_core/astar.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/super.dir/src/traj_opt/yaw_traj_opt.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/super.dir/src/utils/banded_system.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/super.dir/src/traj_opt/exp_traj_optimizer_s4.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/super.dir/src/utils/minco.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/super.dir/src/utils/ellipsoid.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/super.dir/src/super_core/corridor_generator.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/super.dir/src/super_core/super_planner.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/super.dir/src/utils/geometry_utils.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/super.dir/src/super_core/fsm.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/super.dir/src/traj_opt/backup_traj_optimizer_s4.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/super.dir/src/super_core/ciri.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/super.dir/src/utils/lbfgs.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/super.dir/src/utils/optimization_utils.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/super.dir/src/utils/mvie.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/super.dir/src/utils/piece.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/super.dir/src/utils/polynomial_interpolation.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/super.dir/src/utils/polytope.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/super.dir/src/utils/quickhull.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/super.dir/src/utils/root_finder.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/super.dir/src/utils/sdlp.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/super.dir/src/utils/trajectory.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/super.dir/src/utils/waypoint_trajectory_optimizer.cpp.o[0m
+[ 92%] [32m[1mLinking CXX static library libsuper.a[0m
+[ 92%] Built target super
+[ 96%] [32mBuilding CXX object CMakeFiles/fsm_node.dir/Apps/fsm_node_ros2.cpp.o[0m
+[100%] [32m[1mLinking CXX executable fsm_node[0m
+[100%] Built target fsm_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/access.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/archives/adapters.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/archives/binary.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/archives/binary_file_handler.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/archives/json.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/archives/portable_binary.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/archives/xml.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/cereal.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/details/helpers.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/details/polymorphic_impl.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/details/polymorphic_impl_fwd.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/details/static_object.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/details/traits.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/details/util.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/LICENSE
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/base64.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/LICENSE
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/allocators.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/cursorstreamwrapper.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/document.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/encodedstream.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/encodings.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/error/en.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/error/error.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/filereadstream.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/filewritestream.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/fwd.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/internal/biginteger.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/internal/diyfp.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/internal/dtoa.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/internal/ieee754.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/internal/itoa.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/internal/meta.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/internal/pow10.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/internal/regex.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/internal/stack.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/internal/strfunc.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/internal/strtod.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/internal/swap.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/istreamwrapper.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/memorybuffer.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/memorystream.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/msinttypes/LICENSE
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/msinttypes/inttypes.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/msinttypes/stdint.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/ostreamwrapper.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/pointer.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/prettywriter.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/rapidjson.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/reader.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/schema.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/stream.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/stringbuffer.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidjson/writer.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidxml/license.txt
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidxml/manual.html
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidxml/rapidxml.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidxml/rapidxml_iterators.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidxml/rapidxml_print.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/external/rapidxml/rapidxml_utils.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/macros.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/specialize.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/array.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/atomic.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/base_class.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/bitset.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/boost_variant.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/chrono.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/common.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/complex.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/concepts/pair_associative_container.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/deque.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/eigen.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/forward_list.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/functional.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/list.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/map.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/memory.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/optional.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/polymorphic.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/queue.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/set.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/stack.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/string.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/tuple.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/unordered_map.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/unordered_set.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/utility.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/valarray.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/variant.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/types/vector.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//cereal/version.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//data_structure/backup_traj.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//data_structure/base/ellipsoid.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//data_structure/base/piece.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//data_structure/base/polytope.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//data_structure/base/trajectory.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//data_structure/cmd_traj.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//data_structure/exp_traj.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//fmt/args.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//fmt/chrono.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//fmt/color.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//fmt/compile.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//fmt/core.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//fmt/format-inl.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//fmt/format.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//fmt/os.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//fmt/ostream.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//fmt/printf.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//fmt/ranges.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//fmt/std.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//fmt/xchar.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//fsm/config.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//fsm/fsm.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//path_search/astar.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//path_search/config.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//ros_interface/ros1/fsm_ros1.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//ros_interface/ros1/ros1_adapter.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//ros_interface/ros1/ros1_interface.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//ros_interface/ros2/fsm_ros2.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//ros_interface/ros2/ros2_adapter.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//ros_interface/ros2/ros2_interface.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//ros_interface/ros_interface.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//super_core/ciri.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//super_core/config.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//super_core/corridor_generator.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//super_core/fov_checker.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//super_core/log_utils.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//super_core/super_planner.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//super_core/super_ret_code.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//traj_opt/backup_traj_optimizer_s4.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//traj_opt/config.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//traj_opt/exp_traj_optimizer_s4.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//traj_opt/minco.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//traj_opt/yaw_traj_opt.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/geometry/geometry_utils.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/geometry/quadrotor_flatness.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/geometry/quickhull.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/header/backward.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/header/color_msg_utils.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/header/color_text.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/header/eigen_alias.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/header/fmt_eigen.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/header/matplotlibcpp.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/header/scope_timer.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/header/tinycolormap.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/header/type_utils.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/header/yaml_loader.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/optimization/banded_system.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/optimization/lbfgs.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/optimization/minco.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/optimization/mvie.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/optimization/optimization_utils.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/optimization/polynomial_interpolation.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/optimization/root_finder.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/optimization/sdlp.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/optimization/sdqp.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/include//utils/optimization/waypoint_trajectory_optimizer.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner//launch/rviz.launch
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner//config/click_smooth_ros1.yaml
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner//config/click_smooth_ros2.yaml
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner//config/static_dense.yaml
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner//config/static_high_speed.yaml
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/ament_index/resource_index/package_run_dependencies/super_planner
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/ament_index/resource_index/parent_prefix_path/super_planner
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/environment/ament_prefix_path.sh
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/environment/ament_prefix_path.dsv
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/environment/path.sh
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/environment/path.dsv
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/local_setup.bash
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/local_setup.sh
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/local_setup.zsh
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/local_setup.dsv
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/package.dsv
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/ament_index/resource_index/packages/super_planner
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/cmake/super_plannerConfig.cmake
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/cmake/super_plannerConfig-version.cmake
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/share/super_planner/package.xml
+-- Installing: /home/alux-autopilot22/SUPER-ROS2/install/super_planner/lib/super_planner/fsm_node
+-- Set runtime path of "/home/alux-autopilot22/SUPER-ROS2/install/super_planner/lib/super_planner/fsm_node" to ""
