@@ -1,0 +1,1 @@
+/home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim/ament_cmake_environment_hooks/local_setup.bash

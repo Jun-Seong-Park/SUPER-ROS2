@@ -1,0 +1,45 @@
+[0.016s] Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/mission_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/mission_planner -- -j16 -l16
+[0.060s] [100%] Built target waypoint_mission
+[0.070s] Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/mission_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/mission_planner -- -j16 -l16
+[0.078s] Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/mission_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/mission_planner
+[0.083s] -- Install configuration: "Release"
+[0.083s] -- Execute custom install script
+[0.083s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/backward.hpp
+[0.083s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/color_msg_utils.hpp
+[0.083s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/color_text.hpp
+[0.084s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/eigen_alias.hpp
+[0.084s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/fmt_eigen.hpp
+[0.084s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/matplotlibcpp.hpp
+[0.084s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/scope_timer.hpp
+[0.084s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/tinycolormap.hpp
+[0.084s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/type_utils.hpp
+[0.084s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/yaml_loader.hpp
+[0.084s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/waypoint_mission/config.hpp
+[0.084s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/waypoint_mission/ros1_waypoint_planner.hpp
+[0.084s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/waypoint_mission/ros2_waypoint_planner.hpp
+[0.084s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner//launch/banchmark_high_speed.launch.py
+[0.084s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner//launch/benchmark_dense.launch
+[0.084s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner//launch/benchmark_dense.launch.py
+[0.084s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner//launch/benchmark_high_speed.launch
+[0.084s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner//launch/click_demo.launch
+[0.085s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner//launch/click_demo.launch.py
+[0.085s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner//config/waypoint.yaml
+[0.085s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner//data/benchmark.txt
+[0.085s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner//data/benchmark_dense.txt
+[0.085s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/ament_index/resource_index/package_run_dependencies/mission_planner
+[0.085s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/ament_index/resource_index/parent_prefix_path/mission_planner
+[0.085s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/environment/ament_prefix_path.sh
+[0.085s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/environment/ament_prefix_path.dsv
+[0.085s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/environment/path.sh
+[0.085s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/environment/path.dsv
+[0.085s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/local_setup.bash
+[0.086s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/local_setup.sh
+[0.086s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/local_setup.zsh
+[0.086s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/local_setup.dsv
+[0.086s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/package.dsv
+[0.093s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/ament_index/resource_index/packages/mission_planner
+[0.093s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/cmake/mission_plannerConfig.cmake
+[0.093s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/cmake/mission_plannerConfig-version.cmake
+[0.093s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/package.xml
+[0.093s] -- Up-to-date: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/lib/mission_planner/waypoint_mission
+[0.095s] Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/mission_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/mission_planner

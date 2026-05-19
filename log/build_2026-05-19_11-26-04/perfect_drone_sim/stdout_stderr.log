@@ -1,0 +1,42 @@
+[100%] Built target perfect_drone_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/include/perfect_drone_sim/config.hpp
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/include/perfect_drone_sim/ros1_perfect_drone_model.hpp
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/include/perfect_drone_sim/ros2_perfect_drone_model.hpp
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/include/utils/eigen_alias.h
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/include/utils/eigen_fmt.h
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/include/utils/types.hpp
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/include/utils/yaml_loader.hpp
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//launch/benchmark.launch
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//launch/dense.launch
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//launch/high_speed.launch
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//launch/smooth.launch
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//rviz/benchmark.rviz
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//rviz/fpv.rviz
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//rviz/top_down.rviz
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//rviz2/benchmark.rviz
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//rviz2/fpv.rviz
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//rviz2/top_down.rviz
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//meshes/MaRS LOGO (2).png
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//meshes/R.jpeg
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//meshes/yunque-M.dae
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//config/click.yaml
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//config/dense.yaml
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//config/high_speed.yaml
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/ament_index/resource_index/package_run_dependencies/perfect_drone_sim
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/ament_index/resource_index/parent_prefix_path/perfect_drone_sim
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/environment/path.sh
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/environment/path.dsv
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/local_setup.bash
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/local_setup.sh
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/local_setup.zsh
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/local_setup.dsv
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/package.dsv
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/ament_index/resource_index/packages/perfect_drone_sim
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/cmake/perfect_drone_simConfig.cmake
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/cmake/perfect_drone_simConfig-version.cmake
+-- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/package.xml
+-- Up-to-date: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/lib/perfect_drone_sim/perfect_drone_node

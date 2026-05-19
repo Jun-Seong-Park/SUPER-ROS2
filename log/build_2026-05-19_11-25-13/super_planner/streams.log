@@ -1,0 +1,232 @@
+[0.012s] Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/super_planner': AMENT_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map/lib:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/super_planner -- -j16 -l16
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target super[0m
+[0.123s] [ 92%] Built target super
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target fsm_node[0m
+[0.159s] [ 96%] [32mBuilding CXX object CMakeFiles/fsm_node.dir/Apps/fsm_node_ros2.cpp.o[0m
+[5.113s] In file included from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/ros2_interface.hpp:29[m[K,
+[5.113s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:34[m[K,
+[5.113s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.113s] [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/ros2_adapter.hpp:[m[K In static member function ‘[01m[Kstatic void ros_interface::Ros1Adapter::addTrajectoryToMarkerArray(visualization_msgs::msg::MarkerArray&, const geometry_utils::Trajectory&, const string&, const Color&, const double&, const bool&, const bool&, const tinycolormap::ColormapType&)[m[K’:
+[5.113s] [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/ros2_adapter.hpp:179:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kisnan[m[K’ was not declared in this scope
+[5.113s]   179 |             if (t_sum < 1e-2 || [01;31m[Kisnan[m[K(t_sum) || traj.empty()) {
+[5.113s]       |                                 [01;31m[K^~~~~[m[K
+[5.113s] [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/ros2_adapter.hpp:179:33:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.113s] In file included from [01m[K/home/alux-autopilot22/SUPER-ROS2/rog_map/include/fmt/format.h:36[m[K,
+[5.113s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/install/rog_map/include/fmt/color.h:11[m[K,
+[5.113s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:30[m[K,
+[5.113s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.113s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.113s] [01m[K/usr/include/c++/11/cmath:632:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::isnan[m[K’
+[5.113s]   632 |     [01;36m[Kisnan[m[K(_Tp __x)
+[5.113s]       |     [01;36m[K^~~~~[m[K
+[5.113s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:380[m[K,
+[5.113s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.113s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/types/eigen.hpp:6[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/archives/binary_file_handler.hpp:6[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:31[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.114s] [01m[K/usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h:97:3:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::isnan[m[K’
+[5.114s]    97 |   [01;36m[KEIGEN_ARRAY_DECLARE_GLOBAL_UNARY[m[K(isnan,scalar_isnan_op,not-a-number test,\sa Eigen::isinf DOXCOMMA Eigen::isfinite DOXCOMMA ArrayBase::isnan)
+[5.114s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.114s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:171[m[K,
+[5.114s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/types/eigen.hpp:6[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/archives/binary_file_handler.hpp:6[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:31[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.114s] [01m[K/usr/include/eigen3/Eigen/src/Core/MathFunctions.h:1370:46:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::numext::isnan[m[K’
+[5.114s]  1370 | template<typename T> EIGEN_DEVICE_FUNC bool ([01;36m[Kisnan[m[K)   (const T &x) { return internal::isnan_impl(x); }
+[5.114s]       |                                              [01;36m[K^~~~~[m[K
+[5.114s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:176[m[K,
+[5.114s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/types/eigen.hpp:6[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/archives/binary_file_handler.hpp:6[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:31[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.114s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:632:45:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::half_impl::isnan[m[K’
+[5.114s]   632 | EIGEN_STRONG_INLINE EIGEN_DEVICE_FUNC bool ([01;36m[Kisnan[m[K)(const half& a) {
+[5.114s]       |                                             [01;36m[K^~~~~[m[K
+[5.114s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:177[m[K,
+[5.114s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/types/eigen.hpp:6[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/archives/binary_file_handler.hpp:6[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:31[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.114s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.114s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:480:45:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::bfloat16_impl::isnan[m[K’
+[5.114s]   480 | EIGEN_STRONG_INLINE EIGEN_DEVICE_FUNC bool ([01;36m[Kisnan[m[K)(const bfloat16& a) {
+[5.114s]       |                                             [01;36m[K^~~~~[m[K
+[5.123s] In file included from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/ros2_interface.hpp:29[m[K,
+[5.123s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:34[m[K,
+[5.123s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.123s] [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/ros2_adapter.hpp:[m[K In static member function ‘[01m[Kstatic void ros_interface::Ros1Adapter::addPolytopeToMarkerArray(visualization_msgs::msg::MarkerArray&, const geometry_utils::Polytope&, const string&, const bool&, const Color&, const Color&, const Color&, const double&, const double&)[m[K’:
+[5.123s] [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/ros2_adapter.hpp:316:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kisnan[m[K’ was not declared in this scope
+[5.123s]   316 |             if ([01;31m[Kisnan[m[K(planes.sum())) {
+[5.123s]       |                 [01;31m[K^~~~~[m[K
+[5.123s] [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/ros2_adapter.hpp:316:17:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.123s] In file included from [01m[K/home/alux-autopilot22/SUPER-ROS2/rog_map/include/fmt/format.h:36[m[K,
+[5.123s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/install/rog_map/include/fmt/color.h:11[m[K,
+[5.123s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:30[m[K,
+[5.123s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.123s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.123s] [01m[K/usr/include/c++/11/cmath:632:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::isnan[m[K’
+[5.123s]   632 |     [01;36m[Kisnan[m[K(_Tp __x)
+[5.123s]       |     [01;36m[K^~~~~[m[K
+[5.123s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:380[m[K,
+[5.123s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.123s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/types/eigen.hpp:6[m[K,
+[5.123s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/archives/binary_file_handler.hpp:6[m[K,
+[5.123s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:31[m[K,
+[5.123s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.123s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.123s] [01m[K/usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h:97:3:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::isnan[m[K’
+[5.123s]    97 |   [01;36m[KEIGEN_ARRAY_DECLARE_GLOBAL_UNARY[m[K(isnan,scalar_isnan_op,not-a-number test,\sa Eigen::isinf DOXCOMMA Eigen::isfinite DOXCOMMA ArrayBase::isnan)
+[5.123s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.123s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:171[m[K,
+[5.123s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.123s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/types/eigen.hpp:6[m[K,
+[5.123s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/archives/binary_file_handler.hpp:6[m[K,
+[5.123s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:31[m[K,
+[5.124s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.124s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.124s] [01m[K/usr/include/eigen3/Eigen/src/Core/MathFunctions.h:1370:46:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::numext::isnan[m[K’
+[5.124s]  1370 | template<typename T> EIGEN_DEVICE_FUNC bool ([01;36m[Kisnan[m[K)   (const T &x) { return internal::isnan_impl(x); }
+[5.124s]       |                                              [01;36m[K^~~~~[m[K
+[5.124s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:176[m[K,
+[5.124s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.124s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/types/eigen.hpp:6[m[K,
+[5.124s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/archives/binary_file_handler.hpp:6[m[K,
+[5.124s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:31[m[K,
+[5.124s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.124s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.124s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:632:45:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::half_impl::isnan[m[K’
+[5.124s]   632 | EIGEN_STRONG_INLINE EIGEN_DEVICE_FUNC bool ([01;36m[Kisnan[m[K)(const half& a) {
+[5.124s]       |                                             [01;36m[K^~~~~[m[K
+[5.124s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:177[m[K,
+[5.124s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.124s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/types/eigen.hpp:6[m[K,
+[5.124s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/archives/binary_file_handler.hpp:6[m[K,
+[5.124s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:31[m[K,
+[5.124s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.124s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.124s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:480:45:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::bfloat16_impl::isnan[m[K’
+[5.124s]   480 | EIGEN_STRONG_INLINE EIGEN_DEVICE_FUNC bool ([01;36m[Kisnan[m[K)(const bfloat16& a) {
+[5.124s]       |                                             [01;36m[K^~~~~[m[K
+[5.142s] In file included from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/ros2_interface.hpp:29[m[K,
+[5.142s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:34[m[K,
+[5.142s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.142s] [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/ros2_adapter.hpp:345:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kisnan[m[K’ was not declared in this scope
+[5.142s]   345 |             if ([01;31m[Kisnan[m[K(mesh.sum())) {
+[5.142s]       |                 [01;31m[K^~~~~[m[K
+[5.142s] [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/ros2_adapter.hpp:345:17:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.142s] In file included from [01m[K/home/alux-autopilot22/SUPER-ROS2/rog_map/include/fmt/format.h:36[m[K,
+[5.142s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/install/rog_map/include/fmt/color.h:11[m[K,
+[5.142s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:30[m[K,
+[5.142s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.143s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.143s] [01m[K/usr/include/c++/11/cmath:632:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::isnan[m[K’
+[5.143s]   632 |     [01;36m[Kisnan[m[K(_Tp __x)
+[5.143s]       |     [01;36m[K^~~~~[m[K
+[5.143s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:380[m[K,
+[5.143s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.143s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/types/eigen.hpp:6[m[K,
+[5.143s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/archives/binary_file_handler.hpp:6[m[K,
+[5.143s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:31[m[K,
+[5.143s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.143s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.143s] [01m[K/usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h:97:3:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::isnan[m[K’
+[5.143s]    97 |   [01;36m[KEIGEN_ARRAY_DECLARE_GLOBAL_UNARY[m[K(isnan,scalar_isnan_op,not-a-number test,\sa Eigen::isinf DOXCOMMA Eigen::isfinite DOXCOMMA ArrayBase::isnan)
+[5.143s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.143s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:171[m[K,
+[5.143s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.143s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/types/eigen.hpp:6[m[K,
+[5.143s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/archives/binary_file_handler.hpp:6[m[K,
+[5.143s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:31[m[K,
+[5.143s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.143s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.143s] [01m[K/usr/include/eigen3/Eigen/src/Core/MathFunctions.h:1370:46:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::numext::isnan[m[K’
+[5.143s]  1370 | template<typename T> EIGEN_DEVICE_FUNC bool ([01;36m[Kisnan[m[K)   (const T &x) { return internal::isnan_impl(x); }
+[5.143s]       |                                              [01;36m[K^~~~~[m[K
+[5.143s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:176[m[K,
+[5.143s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.143s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/types/eigen.hpp:6[m[K,
+[5.143s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/archives/binary_file_handler.hpp:6[m[K,
+[5.143s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:31[m[K,
+[5.143s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.143s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.143s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:632:45:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::half_impl::isnan[m[K’
+[5.143s]   632 | EIGEN_STRONG_INLINE EIGEN_DEVICE_FUNC bool ([01;36m[Kisnan[m[K)(const half& a) {
+[5.143s]       |                                             [01;36m[K^~~~~[m[K
+[5.143s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:177[m[K,
+[5.143s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.143s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/types/eigen.hpp:6[m[K,
+[5.144s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/archives/binary_file_handler.hpp:6[m[K,
+[5.144s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:31[m[K,
+[5.144s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.144s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.144s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:480:45:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::bfloat16_impl::isnan[m[K’
+[5.144s]   480 | EIGEN_STRONG_INLINE EIGEN_DEVICE_FUNC bool ([01;36m[Kisnan[m[K)(const bfloat16& a) {
+[5.144s]       |                                             [01;36m[K^~~~~[m[K
+[5.184s] In file included from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/ros2_interface.hpp:29[m[K,
+[5.184s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:34[m[K,
+[5.184s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.184s] [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/ros2_adapter.hpp:[m[K In static member function ‘[01m[Kstatic void ros_interface::Ros1Adapter::addPointToMarkerArray(visualization_msgs::msg::MarkerArray&, const Vec3f&, Color, std::string, double, int)[m[K’:
+[5.184s] [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/ros2_adapter.hpp:655:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kisnan[m[K’ was not declared in this scope
+[5.184s]   655 |             if ([01;31m[Kisnan[m[K(pt.x()) || isnan(pt.y()) || isnan(pt.z())) {
+[5.185s]       |                 [01;31m[K^~~~~[m[K
+[5.185s] [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/ros2_adapter.hpp:655:17:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.185s] In file included from [01m[K/home/alux-autopilot22/SUPER-ROS2/rog_map/include/fmt/format.h:36[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/install/rog_map/include/fmt/color.h:11[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:30[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.185s] [01m[K/usr/include/c++/11/cmath:632:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::isnan[m[K’
+[5.185s]   632 |     [01;36m[Kisnan[m[K(_Tp __x)
+[5.185s]       |     [01;36m[K^~~~~[m[K
+[5.185s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:380[m[K,
+[5.185s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/types/eigen.hpp:6[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/archives/binary_file_handler.hpp:6[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:31[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.185s] [01m[K/usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h:97:3:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::isnan[m[K’
+[5.185s]    97 |   [01;36m[KEIGEN_ARRAY_DECLARE_GLOBAL_UNARY[m[K(isnan,scalar_isnan_op,not-a-number test,\sa Eigen::isinf DOXCOMMA Eigen::isfinite DOXCOMMA ArrayBase::isnan)
+[5.185s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.185s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:171[m[K,
+[5.185s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/types/eigen.hpp:6[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/archives/binary_file_handler.hpp:6[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:31[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.185s] [01m[K/usr/include/eigen3/Eigen/src/Core/MathFunctions.h:1370:46:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::numext::isnan[m[K’
+[5.185s]  1370 | template<typename T> EIGEN_DEVICE_FUNC bool ([01;36m[Kisnan[m[K)   (const T &x) { return internal::isnan_impl(x); }
+[5.185s]       |                                              [01;36m[K^~~~~[m[K
+[5.185s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:176[m[K,
+[5.185s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/types/eigen.hpp:6[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/archives/binary_file_handler.hpp:6[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:31[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.185s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.186s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:632:45:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::half_impl::isnan[m[K’
+[5.186s]   632 | EIGEN_STRONG_INLINE EIGEN_DEVICE_FUNC bool ([01;36m[Kisnan[m[K)(const half& a) {
+[5.186s]       |                                             [01;36m[K^~~~~[m[K
+[5.186s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:177[m[K,
+[5.186s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[5.186s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/types/eigen.hpp:6[m[K,
+[5.186s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/cereal/archives/binary_file_handler.hpp:6[m[K,
+[5.186s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/fsm/fsm.h:31[m[K,
+[5.186s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/include/ros_interface/ros2/fsm_ros2.hpp:31[m[K,
+[5.186s]                  from [01m[K/home/alux-autopilot22/SUPER-ROS2/super_planner/Apps/fsm_node_ros2.cpp:26[m[K:
+[5.186s] [01m[K/usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h:480:45:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::bfloat16_impl::isnan[m[K’
+[5.186s]   480 | EIGEN_STRONG_INLINE EIGEN_DEVICE_FUNC bool ([01;36m[Kisnan[m[K)(const bfloat16& a) {
+[5.186s]       |                                             [01;36m[K^~~~~[m[K
+[14.934s] gmake[2]: *** [CMakeFiles/fsm_node.dir/build.make:76: CMakeFiles/fsm_node.dir/Apps/fsm_node_ros2.cpp.o] Error 1
+[14.934s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/fsm_node.dir/all] Error 2
+[14.935s] gmake: *** [Makefile:146: all] Error 2
+[14.938s] Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/super_planner' returned '2': AMENT_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alux-autopilot22/SUPER-ROS2/install/rog_map/lib:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/super_planner -- -j16 -l16

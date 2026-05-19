@@ -1,0 +1,48 @@
+[0.014s] Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim': AMENT_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/lib:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim -- -j16 -l16
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target perfect_drone_node[0m
+[0.075s] [100%] Built target perfect_drone_node
+[0.085s] Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim' returned '0': AMENT_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/lib:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim -- -j16 -l16
+[0.086s] Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim': AMENT_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/lib:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim
+[0.092s] -- Install configuration: "Release"
+[0.092s] -- Execute custom install script
+[0.092s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/include/perfect_drone_sim/config.hpp
+[0.099s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/include/perfect_drone_sim/ros1_perfect_drone_model.hpp
+[0.107s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/include/perfect_drone_sim/ros2_perfect_drone_model.hpp
+[0.115s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/include/utils/eigen_alias.h
+[0.124s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/include/utils/eigen_fmt.h
+[0.132s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/include/utils/types.hpp
+[0.140s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/include/utils/yaml_loader.hpp
+[0.148s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//launch/benchmark.launch
+[0.155s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//launch/dense.launch
+[0.163s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//launch/high_speed.launch
+[0.170s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//launch/smooth.launch
+[0.178s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//rviz/benchmark.rviz
+[0.185s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//rviz/fpv.rviz
+[0.193s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//rviz/top_down.rviz
+[0.201s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//rviz2/benchmark.rviz
+[0.208s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//rviz2/fpv.rviz
+[0.217s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//rviz2/top_down.rviz
+[0.227s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//meshes/MaRS LOGO (2).png
+[0.236s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//meshes/R.jpeg
+[0.245s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//meshes/yunque-M.dae
+[0.254s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//config/click.yaml
+[0.263s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//config/dense.yaml
+[0.270s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim//config/high_speed.yaml
+[0.279s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/ament_index/resource_index/package_run_dependencies/perfect_drone_sim
+[0.287s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/ament_index/resource_index/parent_prefix_path/perfect_drone_sim
+[0.295s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/environment/ament_prefix_path.sh
+[0.304s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/environment/ament_prefix_path.dsv
+[0.311s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/environment/path.sh
+[0.318s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/environment/path.dsv
+[0.328s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/local_setup.bash
+[0.335s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/local_setup.sh
+[0.346s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/local_setup.zsh
+[0.354s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/local_setup.dsv
+[0.364s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/package.dsv
+[0.371s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/ament_index/resource_index/packages/perfect_drone_sim
+[0.379s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/cmake/perfect_drone_simConfig.cmake
+[0.387s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/cmake/perfect_drone_simConfig-version.cmake
+[0.394s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/share/perfect_drone_sim/package.xml
+[0.403s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/lib/perfect_drone_sim/perfect_drone_node
+[0.426s] -- Set runtime path of "/home/alux-autopilot22/SUPER-ROS2/install/perfect_drone_sim/lib/perfect_drone_sim/perfect_drone_node" to ""
+[0.428s] Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim' returned '0': AMENT_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render/lib:/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/perfect_drone_sim
