@@ -1,0 +1,1 @@
+Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/rog_map': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alux-autopilot22/SUPER-ROS2/rog_map -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/rog_map

@@ -1,0 +1,1 @@
+Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/mars_quadrotor_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs

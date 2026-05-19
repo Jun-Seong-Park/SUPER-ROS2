@@ -1,0 +1,5 @@
+source;share/super_planner/local_setup.bash
+source;share/super_planner/local_setup.dsv
+source;share/super_planner/local_setup.ps1
+source;share/super_planner/local_setup.sh
+source;share/super_planner/local_setup.zsh

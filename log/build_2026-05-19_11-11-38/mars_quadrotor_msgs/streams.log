@@ -1,0 +1,276 @@
+[0.012s] Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs -- -j16 -l16
+[0.047s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.054s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.054s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[0.064s] [  4%] Built target ament_cmake_python_symlink_mars_quadrotor_msgs
+[0.307s] running egg_info
+[0.312s] creating mars_quadrotor_msgs.egg-info
+[0.312s] writing mars_quadrotor_msgs.egg-info/PKG-INFO
+[0.312s] writing dependency_links to mars_quadrotor_msgs.egg-info/dependency_links.txt
+[0.312s] writing top-level names to mars_quadrotor_msgs.egg-info/top_level.txt
+[0.312s] writing manifest file 'mars_quadrotor_msgs.egg-info/SOURCES.txt'
+[0.312s] reading manifest file 'mars_quadrotor_msgs.egg-info/SOURCES.txt'
+[0.313s] writing manifest file 'mars_quadrotor_msgs.egg-info/SOURCES.txt'
+[0.353s] [  4%] Built target ament_cmake_python_build_mars_quadrotor_msgs_egg
+[0.643s] [  4%] Built target mars_quadrotor_msgs__rs
+[0.762s] [  4%] Built target mars_quadrotor_msgs__cpp
+[0.776s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.776s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.778s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.851s] [ 14%] [32mBuilding C object CMakeFiles/mars_quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_quadrotor_msgs/msg/detail/traking_performance__functions.c.o[0m
+[0.851s] [ 14%] [32mBuilding C object CMakeFiles/mars_quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_quadrotor_msgs/msg/detail/position_command__functions.c.o[0m
+[0.851s] [ 14%] [32mBuilding C object CMakeFiles/mars_quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_quadrotor_msgs/msg/detail/quadrotor_state__functions.c.o[0m
+[0.865s] [ 15%] [32mBuilding C object CMakeFiles/mars_quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_quadrotor_msgs/msg/detail/polynomial_trajectory__functions.c.o[0m
+[0.867s] [ 17%] [32mBuilding C object CMakeFiles/mars_quadrotor_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_quadrotor_msgs/msg/detail/mpc_position_command__functions.c.o[0m
+[0.945s] [ 18%] [32m[1mLinking C shared library libmars_quadrotor_msgs__rosidl_generator_c.so[0m
+[0.993s] [ 18%] Built target mars_quadrotor_msgs__rosidl_generator_c
+[1.005s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.005s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.006s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.449s] [ 25%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mars_quadrotor_msgs/msg/detail/quadrotor_state__type_support.cpp.o[0m
+[1.451s] [ 26%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mars_quadrotor_msgs/msg/detail/polynomial_trajectory__type_support.cpp.o[0m
+[1.455s] [ 28%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mars_quadrotor_msgs/msg/detail/traking_performance__type_support.cpp.o[0m
+[1.460s] [ 29%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mars_quadrotor_msgs/msg/detail/mpc_position_command__type_support.cpp.o[0m
+[1.460s] [ 31%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mars_quadrotor_msgs/msg/detail/position_command__type_support.cpp.o[0m
+[1.562s] [ 32%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mars_quadrotor_msgs/msg/quadrotor_state__type_support.cpp.o[0m
+[1.566s] [ 34%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mars_quadrotor_msgs/msg/traking_performance__type_support.cpp.o[0m
+[1.567s] [ 35%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mars_quadrotor_msgs/msg/position_command__type_support.cpp.o[0m
+[1.571s] [ 37%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mars_quadrotor_msgs/msg/polynomial_trajectory__type_support.cpp.o[0m
+[1.572s] [ 39%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mars_quadrotor_msgs/msg/mpc_position_command__type_support.cpp.o[0m
+[1.581s] [ 40%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mars_quadrotor_msgs/msg/detail/dds_fastrtps/traking_performance__type_support.cpp.o[0m
+[1.591s] [ 42%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mars_quadrotor_msgs/msg/detail/dds_fastrtps/quadrotor_state__type_support.cpp.o[0m
+[1.603s] [ 43%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mars_quadrotor_msgs/msg/detail/dds_fastrtps/position_command__type_support.cpp.o[0m
+[1.867s] [ 45%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mars_quadrotor_msgs/msg/quadrotor_state__type_support.cpp.o[0m
+[1.895s] [ 46%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mars_quadrotor_msgs/msg/traking_performance__type_support.cpp.o[0m
+[1.950s] [ 48%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mars_quadrotor_msgs/msg/position_command__type_support.cpp.o[0m
+[1.972s] [ 50%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mars_quadrotor_msgs/msg/polynomial_trajectory__type_support.cpp.o[0m
+[1.996s] [ 51%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mars_quadrotor_msgs/msg/detail/dds_fastrtps/polynomial_trajectory__type_support.cpp.o[0m
+[2.006s] [ 53%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mars_quadrotor_msgs/msg/detail/dds_fastrtps/mpc_position_command__type_support.cpp.o[0m
+[2.021s] [ 54%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mars_quadrotor_msgs/msg/mpc_position_command__type_support.cpp.o[0m
+[2.058s] [ 56%] [32mBuilding C object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mars_quadrotor_msgs/msg/detail/quadrotor_state__type_support.c.o[0m
+[2.066s] [ 57%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mars_quadrotor_msgs/msg/detail/quadrotor_state__type_support_c.cpp.o[0m
+[2.066s] [ 59%] [32mBuilding C object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mars_quadrotor_msgs/msg/detail/position_command__type_support.c.o[0m
+[2.066s] [ 60%] [32mBuilding C object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mars_quadrotor_msgs/msg/detail/traking_performance__type_support.c.o[0m
+[2.093s] [ 62%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mars_quadrotor_msgs/msg/detail/traking_performance__type_support_c.cpp.o[0m
+[2.099s] [ 64%] [32m[1mLinking CXX shared library libmars_quadrotor_msgs__rosidl_typesupport_c.so[0m
+[2.114s] [ 65%] [32mBuilding C object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mars_quadrotor_msgs/msg/detail/polynomial_trajectory__type_support.c.o[0m
+[2.133s] [ 67%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mars_quadrotor_msgs/msg/detail/position_command__type_support_c.cpp.o[0m
+[2.148s] [ 68%] [32mBuilding C object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mars_quadrotor_msgs/msg/detail/mpc_position_command__type_support.c.o[0m
+[2.150s] [ 70%] [32m[1mLinking CXX shared library libmars_quadrotor_msgs__rosidl_typesupport_cpp.so[0m
+[2.158s] [ 71%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mars_quadrotor_msgs/msg/detail/polynomial_trajectory__type_support_c.cpp.o[0m
+[2.159s] [ 73%] [32mBuilding CXX object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mars_quadrotor_msgs/msg/detail/mpc_position_command__type_support_c.cpp.o[0m
+[2.209s] [ 73%] Built target mars_quadrotor_msgs__rosidl_typesupport_c
+[2.226s] [ 75%] [32m[1mLinking C shared library libmars_quadrotor_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.239s] [ 75%] Built target mars_quadrotor_msgs__rosidl_typesupport_cpp
+[2.276s] [ 75%] Built target mars_quadrotor_msgs__rosidl_typesupport_introspection_c
+[2.406s] [ 76%] [32m[1mLinking CXX shared library libmars_quadrotor_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.586s] [ 76%] Built target mars_quadrotor_msgs__rosidl_typesupport_introspection_cpp
+[2.592s] [ 78%] [32m[1mLinking CXX shared library libmars_quadrotor_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.637s] [ 79%] [32m[1mLinking CXX shared library libmars_quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.685s] [ 79%] Built target mars_quadrotor_msgs__rosidl_typesupport_fastrtps_c
+[2.759s] [ 79%] Built target mars_quadrotor_msgs__rosidl_typesupport_fastrtps_cpp
+[2.784s] [ 79%] Built target mars_quadrotor_msgs
+[2.810s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.160s] [ 81%] Built target mars_quadrotor_msgs__py
+[4.187s] [ 89%] [32mBuilding C object CMakeFiles/mars_quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/mars_quadrotor_msgs/msg/_traking_performance_s.c.o[0m
+[4.187s] [ 89%] [32mBuilding C object CMakeFiles/mars_quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/mars_quadrotor_msgs/msg/_quadrotor_state_s.c.o[0m
+[4.187s] [ 89%] [32mBuilding C object CMakeFiles/mars_quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/mars_quadrotor_msgs/msg/_polynomial_trajectory_s.c.o[0m
+[4.187s] [ 89%] [32mBuilding C object CMakeFiles/mars_quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/mars_quadrotor_msgs/msg/_position_command_s.c.o[0m
+[4.187s] [ 89%] [32mBuilding C object CMakeFiles/mars_quadrotor_msgs__rosidl_generator_py.dir/rosidl_generator_py/mars_quadrotor_msgs/msg/_mpc_position_command_s.c.o[0m
+[4.360s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/mars_quadrotor_msgs/libmars_quadrotor_msgs__rosidl_generator_py.so[0m
+[4.418s] [ 90%] Built target mars_quadrotor_msgs__rosidl_generator_py
+[4.442s] [ 95%] [32mBuilding C object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mars_quadrotor_msgs/_mars_quadrotor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.442s] [ 95%] [32mBuilding C object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mars_quadrotor_msgs/_mars_quadrotor_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.442s] [ 95%] [32mBuilding C object CMakeFiles/mars_quadrotor_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mars_quadrotor_msgs/_mars_quadrotor_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.560s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/mars_quadrotor_msgs/mars_quadrotor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.562s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/mars_quadrotor_msgs/mars_quadrotor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.570s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mars_quadrotor_msgs/mars_quadrotor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.611s] [100%] Built target mars_quadrotor_msgs__rosidl_typesupport_c__pyext
+[4.611s] [100%] Built target mars_quadrotor_msgs__rosidl_typesupport_introspection_c__pyext
+[4.621s] [100%] Built target mars_quadrotor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.638s] Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs -- -j16 -l16
+[4.651s] Invoking command in '/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs
+[4.660s] -- Install configuration: ""
+[4.661s] -- Execute custom install script
+[4.661s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/ament_index/resource_index/rosidl_interfaces/mars_quadrotor_msgs
+[4.674s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/mpc_position_command__functions.h
+[4.685s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/mpc_position_command__struct.h
+[4.697s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/mpc_position_command__type_support.h
+[4.708s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/polynomial_trajectory__functions.h
+[4.720s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/polynomial_trajectory__struct.h
+[4.731s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/polynomial_trajectory__type_support.h
+[4.744s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/position_command__functions.h
+[4.757s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/position_command__struct.h
+[4.770s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/position_command__type_support.h
+[4.781s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/quadrotor_state__functions.h
+[4.793s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/quadrotor_state__struct.h
+[4.804s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/quadrotor_state__type_support.h
+[4.819s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/traking_performance__functions.h
+[4.831s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/traking_performance__struct.h
+[4.842s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/traking_performance__type_support.h
+[4.854s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/mpc_position_command.h
+[4.866s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/polynomial_trajectory.h
+[4.877s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/position_command.h
+[4.889s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/quadrotor_state.h
+[4.900s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.912s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/traking_performance.h
+[4.924s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/environment/library_path.sh
+[4.935s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/environment/library_path.dsv
+[4.948s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/mpc_position_command__rosidl_typesupport_fastrtps_c.h
+[4.960s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_fastrtps_c.h
+[4.972s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_fastrtps_c.h
+[4.984s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/quadrotor_state__rosidl_typesupport_fastrtps_c.h
+[4.995s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/traking_performance__rosidl_typesupport_fastrtps_c.h
+[5.007s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.019s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/mpc_position_command__rosidl_typesupport_introspection_c.h
+[5.031s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_introspection_c.h
+[5.043s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_introspection_c.h
+[5.056s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/quadrotor_state__rosidl_typesupport_introspection_c.h
+[5.067s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/traking_performance__rosidl_typesupport_introspection_c.h
+[5.079s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.090s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/mpc_position_command__builder.hpp
+[5.102s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/mpc_position_command__struct.hpp
+[5.113s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/mpc_position_command__traits.hpp
+[5.124s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/mpc_position_command__type_support.hpp
+[5.136s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/polynomial_trajectory__builder.hpp
+[5.147s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/polynomial_trajectory__struct.hpp
+[5.160s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/polynomial_trajectory__traits.hpp
+[5.172s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/polynomial_trajectory__type_support.hpp
+[5.184s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/position_command__builder.hpp
+[5.196s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/position_command__struct.hpp
+[5.207s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/position_command__traits.hpp
+[5.218s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/position_command__type_support.hpp
+[5.230s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/quadrotor_state__builder.hpp
+[5.241s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/quadrotor_state__struct.hpp
+[5.254s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/quadrotor_state__traits.hpp
+[5.266s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/quadrotor_state__type_support.hpp
+[5.278s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/traking_performance__builder.hpp
+[5.288s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/traking_performance__struct.hpp
+[5.300s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/traking_performance__traits.hpp
+[5.311s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/traking_performance__type_support.hpp
+[5.322s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/mpc_position_command.hpp
+[5.334s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/polynomial_trajectory.hpp
+[5.345s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/position_command.hpp
+[5.359s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/quadrotor_state.hpp
+[5.370s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.380s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/traking_performance.hpp
+[5.392s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/mpc_position_command__rosidl_typesupport_fastrtps_cpp.hpp
+[5.404s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[5.415s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_fastrtps_cpp.hpp
+[5.427s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/quadrotor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.438s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/traking_performance__rosidl_typesupport_fastrtps_cpp.hpp
+[5.450s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.462s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/mpc_position_command__rosidl_typesupport_introspection_cpp.hpp
+[5.473s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[5.485s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_introspection_cpp.hpp
+[5.496s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/quadrotor_state__rosidl_typesupport_introspection_cpp.hpp
+[5.507s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/include/mars_quadrotor_msgs/mars_quadrotor_msgs/msg/detail/traking_performance__rosidl_typesupport_introspection_cpp.hpp
+[5.519s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/environment/pythonpath.sh
+[5.530s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/environment/pythonpath.dsv
+[5.542s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs-2.0.8-py3.10.egg-info/PKG-INFO
+[5.555s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs-2.0.8-py3.10.egg-info/SOURCES.txt
+[5.567s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs-2.0.8-py3.10.egg-info/dependency_links.txt
+[5.578s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs-2.0.8-py3.10.egg-info/top_level.txt
+[5.591s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/__init__.py
+[5.602s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/_mars_quadrotor_msgs_s.ep.rosidl_typesupport_c.c
+[5.614s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/_mars_quadrotor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.625s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/_mars_quadrotor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.636s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/libmars_quadrotor_msgs__rosidl_generator_py.so
+[5.649s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/mars_quadrotor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.661s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/mars_quadrotor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.673s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/mars_quadrotor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.684s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/msg/__init__.py
+[5.695s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/msg/_mpc_position_command.py
+[5.707s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/msg/_mpc_position_command_s.c
+[5.718s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/msg/_polynomial_trajectory.py
+[5.730s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/msg/_polynomial_trajectory_s.c
+[5.741s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/msg/_position_command.py
+[5.754s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/msg/_position_command_s.c
+[5.765s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/msg/_quadrotor_state.py
+[5.776s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/msg/_quadrotor_state_s.c
+[5.787s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/msg/_traking_performance.py
+[5.799s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/msg/_traking_performance_s.c
+[5.810s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/mars_quadrotor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.810s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/mars_quadrotor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.811s] -- Up-to-date symlink: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/mars_quadrotor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.811s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/ament_index/resource_index/rust_packages/mars_quadrotor_msgs
+[5.823s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/rust/Cargo.toml
+[5.834s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/rust/build.rs
+[5.846s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/rust/src/lib.rs
+[5.859s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/rust/src/msg.rs
+[5.871s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/rust/src/msg/rmw.rs
+[5.882s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/msg/QuadrotorState.idl
+[5.894s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/msg/TrakingPerformance.idl
+[5.905s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/msg/PositionCommand.idl
+[5.917s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/msg/PolynomialTrajectory.idl
+[5.928s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/msg/MpcPositionCommand.idl
+[5.939s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/ros2_msg/QuadrotorState.msg
+[5.951s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/ros2_msg/TrakingPerformance.msg
+[5.963s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/ros2_msg/PositionCommand.msg
+[5.975s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/ros2_msg/PolynomialTrajectory.msg
+[5.987s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/ros2_msg/MpcPositionCommand.msg
+[5.998s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/ament_index/resource_index/package_run_dependencies/mars_quadrotor_msgs
+[6.010s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/ament_index/resource_index/parent_prefix_path/mars_quadrotor_msgs
+[6.021s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/environment/ament_prefix_path.sh
+[6.032s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/environment/ament_prefix_path.dsv
+[6.043s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/environment/path.sh
+[6.056s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/environment/path.dsv
+[6.067s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/local_setup.bash
+[6.079s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/local_setup.sh
+[6.091s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/local_setup.zsh
+[6.102s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/local_setup.dsv
+[6.114s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/package.dsv
+[6.125s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/ament_index/resource_index/packages/mars_quadrotor_msgs
+[6.137s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/rosidl_cmake-extras.cmake
+[6.150s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.162s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.173s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.185s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.196s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.208s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.219s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/mars_quadrotor_msgsConfig.cmake
+[6.230s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/mars_quadrotor_msgsConfig-version.cmake
+[6.242s] -- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/package.xml
+[6.255s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/libmars_quadrotor_msgs__rosidl_generator_c.so
+[6.255s] -- Set runtime path of "/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/libmars_quadrotor_msgs__rosidl_generator_c.so" to ""
+[6.255s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/libmars_quadrotor_msgs__rosidl_typesupport_fastrtps_c.so
+[6.255s] -- Set runtime path of "/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/libmars_quadrotor_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.255s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/libmars_quadrotor_msgs__rosidl_typesupport_introspection_c.so
+[6.256s] -- Set runtime path of "/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/libmars_quadrotor_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.256s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/libmars_quadrotor_msgs__rosidl_typesupport_c.so
+[6.256s] -- Set runtime path of "/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/libmars_quadrotor_msgs__rosidl_typesupport_c.so" to ""
+[6.257s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/libmars_quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.257s] -- Set runtime path of "/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/libmars_quadrotor_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.257s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/libmars_quadrotor_msgs__rosidl_typesupport_introspection_cpp.so
+[6.258s] -- Set runtime path of "/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/libmars_quadrotor_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.258s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/libmars_quadrotor_msgs__rosidl_typesupport_cpp.so
+[6.258s] -- Set runtime path of "/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/libmars_quadrotor_msgs__rosidl_typesupport_cpp.so" to ""
+[6.309s] Listing '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs'...
+[6.309s] Compiling '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/__init__.py'...
+[6.309s] Listing '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/msg'...
+[6.310s] Compiling '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/msg/__init__.py'...
+[6.310s] Compiling '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/msg/_mpc_position_command.py'...
+[6.310s] Compiling '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/msg/_polynomial_trajectory.py'...
+[6.310s] Compiling '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/msg/_position_command.py'...
+[6.310s] Compiling '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/msg/_quadrotor_state.py'...
+[6.310s] Compiling '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/local/lib/python3.10/dist-packages/mars_quadrotor_msgs/msg/_traking_performance.py'...
+[6.317s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/libmars_quadrotor_msgs__rosidl_generator_py.so
+[6.317s] -- Set runtime path of "/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/lib/libmars_quadrotor_msgs__rosidl_generator_py.so" to ""
+[6.317s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/export_mars_quadrotor_msgs__rosidl_generator_cExport.cmake
+[6.317s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/export_mars_quadrotor_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.317s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/export_mars_quadrotor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.317s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/export_mars_quadrotor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.318s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/mars_quadrotor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.318s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/mars_quadrotor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.318s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/mars_quadrotor_msgs__rosidl_typesupport_cExport.cmake
+[6.318s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/mars_quadrotor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.318s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/export_mars_quadrotor_msgs__rosidl_generator_cppExport.cmake
+[6.319s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/export_mars_quadrotor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.319s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/export_mars_quadrotor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.319s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/mars_quadrotor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.319s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/mars_quadrotor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.319s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/mars_quadrotor_msgs__rosidl_typesupport_cppExport.cmake
+[6.320s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/mars_quadrotor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.320s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/export_mars_quadrotor_msgs__rosidl_generator_pyExport.cmake
+[6.320s] -- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs/share/mars_quadrotor_msgs/cmake/export_mars_quadrotor_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.323s] Invoked command in '/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs

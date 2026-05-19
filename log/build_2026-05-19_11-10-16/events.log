@@ -1,0 +1,450 @@
+[0.000000] (-) TimerEvent: {}
+[0.000192] (mars_quadrotor_msgs) JobQueued: {'identifier': 'mars_quadrotor_msgs', 'dependencies': OrderedDict()}
+[0.000230] (marsim_render) JobQueued: {'identifier': 'marsim_render', 'dependencies': OrderedDict()}
+[0.000256] (mission_planner) JobQueued: {'identifier': 'mission_planner', 'dependencies': OrderedDict()}
+[0.000359] (rog_map) JobQueued: {'identifier': 'rog_map', 'dependencies': OrderedDict()}
+[0.000380] (perfect_drone_sim) JobQueued: {'identifier': 'perfect_drone_sim', 'dependencies': OrderedDict([('mars_quadrotor_msgs', '/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs'), ('marsim_render', '/home/alux-autopilot22/SUPER-ROS2/install/marsim_render')])}
+[0.000406] (super_planner) JobQueued: {'identifier': 'super_planner', 'dependencies': OrderedDict([('rog_map', '/home/alux-autopilot22/SUPER-ROS2/install/rog_map')])}
+[0.000428] (mars_quadrotor_msgs) JobStarted: {'identifier': 'mars_quadrotor_msgs'}
+[0.003920] (marsim_render) JobStarted: {'identifier': 'marsim_render'}
+[0.005904] (rog_map) JobStarted: {'identifier': 'rog_map'}
+[0.007804] (mission_planner) JobStarted: {'identifier': 'mission_planner'}
+[0.010212] (mars_quadrotor_msgs) JobProgress: {'identifier': 'mars_quadrotor_msgs', 'progress': 'cmake'}
+[0.010526] (mars_quadrotor_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/mars_quadrotor_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/mars_quadrotor_msgs'], 'cwd': '/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alux-autopilot22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alux-autopilot22'), ('OLDPWD', '/home/alux-autopilot22/.local/share/Trash/files'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/alux-autopilot22/.nvm/versions/node/v24.14.0/bin'), ('NVM_INC', '/home/alux-autopilot22/.nvm/versions/node/v24.14.0/include/node'), ('JETSON_L4T', ''), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', ''), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '34421'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/alux-autopilot22/.nvm'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alux-autopilot22'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alux-autopilot22'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/alux-autopilot22/.nvm/versions/node/v24.14.0/bin:/home/alux-autopilot22/.local/bin:/home/alux-autopilot22/.npm-global/bin:/tmp/node-v20.10.0-linux-x64/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alux-autopilot22:@/tmp/.ICE-unix/1889,unix/alux-autopilot22:/tmp/.ICE-unix/1889'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/alux-autopilot22/fastdds_unicast.xml'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b8ce91d4_2819_432e_9003_58a39a98a9d6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', ''), ('GNOME_TERMINAL_SERVICE', ':1.194'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', ''), ('PWD', '/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/alux-autopilot22/SuperGluePretrainedNetwork'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.012017] (marsim_render) JobProgress: {'identifier': 'marsim_render', 'progress': 'cmake'}
+[0.012351] (marsim_render) Command: {'cmd': ['/usr/bin/cmake', '/home/alux-autopilot22/SUPER-ROS2/mars_uav_sim/marsim_render', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/marsim_render'], 'cwd': '/home/alux-autopilot22/SUPER-ROS2/build/marsim_render', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alux-autopilot22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alux-autopilot22'), ('OLDPWD', '/home/alux-autopilot22/.local/share/Trash/files'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/alux-autopilot22/.nvm/versions/node/v24.14.0/bin'), ('NVM_INC', '/home/alux-autopilot22/.nvm/versions/node/v24.14.0/include/node'), ('JETSON_L4T', ''), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', ''), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '34421'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/alux-autopilot22/.nvm'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alux-autopilot22'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alux-autopilot22'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/alux-autopilot22/.nvm/versions/node/v24.14.0/bin:/home/alux-autopilot22/.local/bin:/home/alux-autopilot22/.npm-global/bin:/tmp/node-v20.10.0-linux-x64/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alux-autopilot22:@/tmp/.ICE-unix/1889,unix/alux-autopilot22:/tmp/.ICE-unix/1889'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/alux-autopilot22/fastdds_unicast.xml'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b8ce91d4_2819_432e_9003_58a39a98a9d6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', ''), ('GNOME_TERMINAL_SERVICE', ':1.194'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', ''), ('PWD', '/home/alux-autopilot22/SUPER-ROS2/build/marsim_render'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/alux-autopilot22/SuperGluePretrainedNetwork'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.014734] (rog_map) JobProgress: {'identifier': 'rog_map', 'progress': 'cmake'}
+[0.014867] (rog_map) Command: {'cmd': ['/usr/bin/cmake', '/home/alux-autopilot22/SUPER-ROS2/rog_map', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/rog_map'], 'cwd': '/home/alux-autopilot22/SUPER-ROS2/build/rog_map', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alux-autopilot22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alux-autopilot22'), ('OLDPWD', '/home/alux-autopilot22/.local/share/Trash/files'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/alux-autopilot22/.nvm/versions/node/v24.14.0/bin'), ('NVM_INC', '/home/alux-autopilot22/.nvm/versions/node/v24.14.0/include/node'), ('JETSON_L4T', ''), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', ''), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '34421'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/alux-autopilot22/.nvm'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alux-autopilot22'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alux-autopilot22'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/alux-autopilot22/.nvm/versions/node/v24.14.0/bin:/home/alux-autopilot22/.local/bin:/home/alux-autopilot22/.npm-global/bin:/tmp/node-v20.10.0-linux-x64/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alux-autopilot22:@/tmp/.ICE-unix/1889,unix/alux-autopilot22:/tmp/.ICE-unix/1889'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/alux-autopilot22/fastdds_unicast.xml'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b8ce91d4_2819_432e_9003_58a39a98a9d6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', ''), ('GNOME_TERMINAL_SERVICE', ':1.194'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', ''), ('PWD', '/home/alux-autopilot22/SUPER-ROS2/build/rog_map'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/alux-autopilot22/SuperGluePretrainedNetwork'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.018437] (mission_planner) JobProgress: {'identifier': 'mission_planner', 'progress': 'cmake'}
+[0.018785] (mission_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/alux-autopilot22/SUPER-ROS2/mission_planner', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/alux-autopilot22/SUPER-ROS2/install/mission_planner'], 'cwd': '/home/alux-autopilot22/SUPER-ROS2/build/mission_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alux-autopilot22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alux-autopilot22'), ('OLDPWD', '/home/alux-autopilot22/.local/share/Trash/files'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/alux-autopilot22/.nvm/versions/node/v24.14.0/bin'), ('NVM_INC', '/home/alux-autopilot22/.nvm/versions/node/v24.14.0/include/node'), ('JETSON_L4T', ''), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', ''), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '34421'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/alux-autopilot22/.nvm'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alux-autopilot22'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', ''), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alux-autopilot22'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/alux-autopilot22/.nvm/versions/node/v24.14.0/bin:/home/alux-autopilot22/.local/bin:/home/alux-autopilot22/.npm-global/bin:/tmp/node-v20.10.0-linux-x64/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alux-autopilot22:@/tmp/.ICE-unix/1889,unix/alux-autopilot22:/tmp/.ICE-unix/1889'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/alux-autopilot22/fastdds_unicast.xml'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b8ce91d4_2819_432e_9003_58a39a98a9d6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', ''), ('GNOME_TERMINAL_SERVICE', ':1.194'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', ''), ('PWD', '/home/alux-autopilot22/SUPER-ROS2/build/mission_planner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/alux-autopilot22/SuperGluePretrainedNetwork'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.053561] (marsim_render) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.053776] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.053839] (rog_map) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.059463] (mission_planner) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.091545] (rog_map) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.091684] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.091960] (marsim_render) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.097783] (mission_planner) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.098058] (rog_map) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.098829] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099335] (-) TimerEvent: {}
+[0.099716] (marsim_render) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.102203] (mission_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.148947] (mission_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.149128] (marsim_render) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.149196] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.149258] (rog_map) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.153250] (marsim_render) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.153368] (rog_map) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.153447] (marsim_render) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.153540] (rog_map) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.153637] (marsim_render) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.153727] (rog_map) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.155108] (mission_planner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.155315] (mission_planner) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.155371] (rog_map) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.155400] (marsim_render) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.155451] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.155613] (mission_planner) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.155654] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.155966] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.158025] (mission_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.158372] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199460] (-) TimerEvent: {}
+[0.210798] (marsim_render) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.211277] (mission_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.211379] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.213080] (rog_map) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.215537] (mission_planner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.215630] (mission_planner) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.215715] (marsim_render) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.215853] (mission_planner) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.215951] (marsim_render) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.216146] (marsim_render) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.217394] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.217627] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.217743] (mission_planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.217784] (marsim_render) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.217980] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.219422] (rog_map) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.219632] (rog_map) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.219989] (rog_map) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.220207] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.220474] (rog_map) StdoutLine: {'line': b'-- ROS version: HUMBLE\n'}
+[0.220579] (rog_map) StderrLine: {'line': b'\x1b[0mUsing ROS2\x1b[0m\n'}
+[0.222174] (rog_map) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299615] (-) TimerEvent: {}
+[0.318327] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.19") found components: Interpreter \n'}
+[0.318572] (marsim_render) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.19") found components: Interpreter \n'}
+[0.318861] (mission_planner) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.19") found components: Interpreter \n'}
+[0.324677] (rog_map) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.19") found components: Interpreter \n'}
+[0.362083] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.362373] (mission_planner) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.362553] (marsim_render) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.367389] (rog_map) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.381560] (marsim_render) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.381737] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.381898] (mission_planner) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.383343] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.386021] (rog_map) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.387629] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.399715] (-) TimerEvent: {}
+[0.409653] (marsim_render) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.410020] (mission_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.412905] (marsim_render) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.413274] (mission_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.413959] (rog_map) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.416333] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.417150] (rog_map) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.418250] (marsim_render) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.418602] (mission_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.422425] (rog_map) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.425657] (marsim_render) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.425848] (mission_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.430178] (rog_map) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.435647] (mission_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.435830] (marsim_render) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.439642] (rog_map) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.440113] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.455783] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.462389] (marsim_render) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.462557] (mission_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.464088] (marsim_render) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.464270] (mission_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.467052] (rog_map) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.468779] (rog_map) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499848] (-) TimerEvent: {}
+[0.531180] (rog_map) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.531693] (marsim_render) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.531831] (mission_planner) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.545628] (marsim_render) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.545850] (rog_map) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.545934] (mission_planner) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.562392] (mission_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.562619] (marsim_render) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.562735] (rog_map) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.568333] (mission_planner) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.568430] (marsim_render) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.568522] (rog_map) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.599943] (-) TimerEvent: {}
+[0.619412] (marsim_render) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.619569] (rog_map) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.619633] (marsim_render) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.619690] (rog_map) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.619756] (mission_planner) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.619849] (mission_planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.673218] (rog_map) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.673449] (mission_planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.673505] (marsim_render) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.674007] (rog_map) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.674101] (mission_planner) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.674150] (marsim_render) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.687067] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.15 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[0.688429] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.15 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[0.689797] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.15 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[0.691341] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.700007] (-) TimerEvent: {}
+[0.703050] (marsim_render) StdoutLine: {'line': b'-- GCC or Clang detected, adding -Wall -Wextra -Werror\n'}
+[0.703947] (mission_planner) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.705677] (rog_map) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.711699] (mission_planner) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.714313] (marsim_render) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[0.722762] (mission_planner) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.728937] (rog_map) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.735720] (mission_planner) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.748451] (marsim_render) StdoutLine: {'line': b'-- Found GLEW: /usr/include (found version "2.2.0") \n'}
+[0.753359] (marsim_render) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):\n'}
+[0.753531] (marsim_render) StderrLine: {'line': b'  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when\n'}
+[0.753576] (marsim_render) StderrLine: {'line': b'  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the\n'}
+[0.753616] (marsim_render) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.753653] (marsim_render) StderrLine: {'line': b'\n'}
+[0.753693] (marsim_render) StderrLine: {'line': b'  FindOpenGL found both a legacy GL library:\n'}
+[0.753725] (marsim_render) StderrLine: {'line': b'\n'}
+[0.753755] (marsim_render) StderrLine: {'line': b'    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so\n'}
+[0.753786] (marsim_render) StderrLine: {'line': b'\n'}
+[0.753819] (marsim_render) StderrLine: {'line': b'  and GLVND libraries for OpenGL and GLX:\n'}
+[0.753850] (marsim_render) StderrLine: {'line': b'\n'}
+[0.753893] (marsim_render) StderrLine: {'line': b'    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so\n'}
+[0.753936] (marsim_render) StderrLine: {'line': b'    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so\n'}
+[0.753971] (marsim_render) StderrLine: {'line': b'\n'}
+[0.754005] (marsim_render) StderrLine: {'line': b'  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for\n'}
+[0.754041] (marsim_render) StderrLine: {'line': b'  compatibility with CMake 3.10 and below the legacy GL library will be used.\n'}
+[0.754078] (marsim_render) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.754115] (marsim_render) StderrLine: {'line': b'  CMakeLists.txt:48 (find_package)\n'}
+[0.754180] (marsim_render) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.754214] (marsim_render) StderrLine: {'line': b'\x1b[0m\n'}
+[0.754247] (marsim_render) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[0.760255] (mission_planner) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:33 (find_package):\n'}
+[0.760427] (mission_planner) StderrLine: {'line': b'  By not providing "Findmavros_msgs.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.760464] (mission_planner) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.760491] (mission_planner) StderrLine: {'line': b'  "mavros_msgs", but CMake did not find one.\n'}
+[0.760515] (mission_planner) StderrLine: {'line': b'\n'}
+[0.760539] (mission_planner) StderrLine: {'line': b'  Could not find a package configuration file provided by "mavros_msgs" with\n'}
+[0.760562] (mission_planner) StderrLine: {'line': b'  any of the following names:\n'}
+[0.760584] (mission_planner) StderrLine: {'line': b'\n'}
+[0.760606] (mission_planner) StderrLine: {'line': b'    mavros_msgsConfig.cmake\n'}
+[0.760629] (mission_planner) StderrLine: {'line': b'    mavros_msgs-config.cmake\n'}
+[0.760651] (mission_planner) StderrLine: {'line': b'\n'}
+[0.760675] (mission_planner) StderrLine: {'line': b'  Add the installation prefix of "mavros_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[0.760699] (mission_planner) StderrLine: {'line': b'  "mavros_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[0.760721] (mission_planner) StderrLine: {'line': b'  "mavros_msgs" provides a separate development package or SDK, be sure it\n'}
+[0.760748] (mission_planner) StderrLine: {'line': b'  has been installed.\n'}
+[0.760772] (mission_planner) StderrLine: {'line': b'\n'}
+[0.760800] (mission_planner) StderrLine: {'line': b'\x1b[0m\n'}
+[0.760823] (mission_planner) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.760856] (mission_planner) StdoutLine: {'line': b'See also "/home/alux-autopilot22/SUPER-ROS2/build/mission_planner/CMakeFiles/CMakeOutput.log".\n'}
+[0.767547] (rog_map) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.767741] (marsim_render) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.768803] (mission_planner) CommandEnded: {'returncode': 1}
+[0.778068] (rog_map) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.778251] (marsim_render) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.783944] (mission_planner) JobEnded: {'identifier': 'mission_planner', 'rc': 1}
+[0.800111] (-) TimerEvent: {}
+[0.807123] (rog_map) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.807286] (rog_map) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.807334] (marsim_render) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.807390] (marsim_render) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.820461] (rog_map) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[0.820607] (marsim_render) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[0.833742] (rog_map) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.834184] (marsim_render) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.844367] (rog_map) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.846639] (marsim_render) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.858464] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.878197] (marsim_render) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.878375] (marsim_render) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.881940] (rog_map) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.882069] (rog_map) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.899546] (marsim_render) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[0.900166] (-) TimerEvent: {}
+[0.902498] (marsim_render) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[0.902624] (rog_map) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[0.906872] (rog_map) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[1.000271] (-) TimerEvent: {}
+[1.009185] (marsim_render) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[1.009429] (marsim_render) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[1.009813] (rog_map) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[1.009987] (rog_map) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[1.010957] (marsim_render) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[1.011573] (rog_map) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[1.016883] (marsim_render) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3.1") \n'}
+[1.017568] (rog_map) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3.1") \n'}
+[1.029458] (marsim_render) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.55") \n'}
+[1.029991] (rog_map) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.55") \n'}
+[1.036348] (marsim_render) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[1.036690] (rog_map) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[1.071866] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.088677] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.19", minimum required is "3.6") \n'}
+[1.089847] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.100344] (-) TimerEvent: {}
+[1.104986] (marsim_render) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.105160] (marsim_render) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.105585] (rog_map) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.105759] (rog_map) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.114262] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.19", minimum required is "3.5") \n'}
+[1.114386] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.114421] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.114449] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.129822] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.162717] (marsim_render) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.162897] (marsim_render) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.163294] (rog_map) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.163385] (rog_map) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.172046] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.15 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[1.173504] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.15 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[1.200437] (-) TimerEvent: {}
+[1.214182] (marsim_render) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.214365] (marsim_render) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.214846] (rog_map) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.214965] (rog_map) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.233974] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.261993] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.265036] (rog_map) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.265178] (rog_map) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.266176] (marsim_render) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.266246] (marsim_render) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.269593] (mars_quadrotor_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs\n'}
+[1.278558] (mars_quadrotor_msgs) JobEnded: {'identifier': 'mars_quadrotor_msgs', 'rc': 'SIGINT'}
+[1.300547] (-) TimerEvent: {}
+[1.317618] (marsim_render) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.317775] (marsim_render) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.318469] (rog_map) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.318618] (rog_map) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.367860] (marsim_render) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.368072] (marsim_render) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.369324] (rog_map) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.369409] (rog_map) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.400647] (-) TimerEvent: {}
+[1.420973] (rog_map) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.421204] (marsim_render) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.482053] (marsim_render) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") \n'}
+[1.483137] (marsim_render) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[1.484393] (marsim_render) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[1.485248] (marsim_render) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[1.487819] (rog_map) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") \n'}
+[1.488971] (rog_map) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[1.490254] (rog_map) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[1.491368] (rog_map) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[1.496127] (marsim_render) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[1.500442] (marsim_render) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.7.0")  \n'}
+[1.500741] (-) TimerEvent: {}
+[1.501107] (rog_map) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[1.502873] (marsim_render) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.12.1") \n'}
+[1.504481] (rog_map) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.7.0")  \n'}
+[1.505908] (marsim_render) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[1.506952] (rog_map) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.12.1") \n'}
+[1.509906] (rog_map) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[1.565493] (marsim_render) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.572331] (rog_map) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.576189] (marsim_render) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.582351] (rog_map) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.600842] (-) TimerEvent: {}
+[1.609094] (marsim_render) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.609898] (marsim_render) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[1.610039] (marsim_render) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.616193] (rog_map) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.616815] (rog_map) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[1.616960] (rog_map) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.660371] (marsim_render) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[1.660650] (marsim_render) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.660774] (marsim_render) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.668009] (rog_map) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[1.668176] (rog_map) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.668246] (rog_map) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.701000] (-) TimerEvent: {}
+[1.771029] (marsim_render) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.775901] (marsim_render) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.776439] (rog_map) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.781465] (marsim_render) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.782174] (rog_map) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.787069] (rog_map) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.801056] (-) TimerEvent: {}
+[1.882351] (marsim_render) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.887335] (rog_map) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.901137] (-) TimerEvent: {}
+[1.987476] (marsim_render) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.990392] (rog_map) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.001241] (-) TimerEvent: {}
+[2.082297] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.083033] (marsim_render) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.083167] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.083561] (marsim_render) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.083662] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.083852] (rog_map) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.084046] (marsim_render) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.084139] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.084618] (marsim_render) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.084682] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.084737] (rog_map) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.084786] (rog_map) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.085120] (marsim_render) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.085191] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.085290] (rog_map) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.085336] (rog_map) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.085629] (marsim_render) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.085723] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.085761] (rog_map) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.085814] (marsim_render) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.085846] (rog_map) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.085897] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.085992] (marsim_render) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.086041] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.086287] (rog_map) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.086368] (rog_map) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.086474] (marsim_render) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.086587] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.086839] (rog_map) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.086929] (rog_map) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.087041] (marsim_render) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.087143] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.087380] (rog_map) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.087474] (rog_map) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.087574] (rog_map) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.087624] (marsim_render) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.087677] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.087714] (rog_map) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.087752] (rog_map) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.087804] (rog_map) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.088102] (marsim_render) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.088230] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.088271] (rog_map) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.088420] (rog_map) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.088665] (marsim_render) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.088785] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.088895] (rog_map) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.089006] (rog_map) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.089249] (marsim_render) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.089347] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.089445] (rog_map) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.089512] (rog_map) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.089790] (marsim_render) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.089922] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.089981] (rog_map) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.090113] (rog_map) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.090375] (marsim_render) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.090483] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.090589] (rog_map) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.090714] (rog_map) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.090930] (marsim_render) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.091024] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.091175] (rog_map) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.091278] (rog_map) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.091493] (marsim_render) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.091643] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.091757] (rog_map) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.091880] (rog_map) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.092119] (marsim_render) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.092199] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.092369] (rog_map) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.092482] (rog_map) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.092650] (marsim_render) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.092945] (rog_map) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.092988] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.093048] (rog_map) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.093090] (marsim_render) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.093143] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[2.093252] (marsim_render) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.093301] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.093435] (marsim_render) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.093481] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.093518] (rog_map) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.093666] (rog_map) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.093953] (marsim_render) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.094054] (marsim_render) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.094153] (rog_map) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.094231] (rog_map) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.094511] (marsim_render) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.094695] (rog_map) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.094948] (marsim_render) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[2.095013] (rog_map) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.095137] (rog_map) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.095201] (rog_map) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[2.095341] (rog_map) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.095393] (rog_map) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.095517] (rog_map) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.095564] (rog_map) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.096048] (rog_map) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.096153] (rog_map) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.096609] (rog_map) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.097029] (rog_map) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[2.101316] (-) TimerEvent: {}
+[2.102377] (rog_map) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.184439] (rog_map) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[2.201457] (-) TimerEvent: {}
+[2.273735] (rog_map) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.298799] (rog_map) StdoutLine: {'line': b'-- Generating done\n'}
+[2.301524] (-) TimerEvent: {}
+[2.306487] (rog_map) StdoutLine: {'line': b'-- Build files have been written to: /home/alux-autopilot22/SUPER-ROS2/build/rog_map\n'}
+[2.311486] (marsim_render) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[2.322776] (rog_map) JobEnded: {'identifier': 'rog_map', 'rc': 'SIGINT'}
+[2.391384] (marsim_render) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[2.391629] (marsim_render) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[2.401602] (-) TimerEvent: {}
+[2.464650] (marsim_render) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.496905] (marsim_render) StdoutLine: {'line': b'-- Generating done\n'}
+[2.501678] (-) TimerEvent: {}
+[2.507319] (marsim_render) StdoutLine: {'line': b'-- Build files have been written to: /home/alux-autopilot22/SUPER-ROS2/build/marsim_render\n'}
+[2.532135] (marsim_render) JobEnded: {'identifier': 'marsim_render', 'rc': 'SIGINT'}
+[2.542649] (perfect_drone_sim) JobSkipped: {'identifier': 'perfect_drone_sim'}
+[2.542739] (super_planner) JobSkipped: {'identifier': 'super_planner'}
+[2.542767] (-) EventReactorShutdown: {}

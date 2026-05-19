@@ -1,0 +1,68 @@
+[ 22%] [32mBuilding CXX object CMakeFiles/rog_map.dir/src/rog_map/esdf_map.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rog_map.dir/src/rog_map/inf_map.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/rog_map.dir/src/rog_map/prob_map.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/rog_map.dir/src/rog_map/rog_map.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/rog_map.dir/src/rog_map/sliding_map.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/rog_map.dir/src/rog_map_ros/rog_map_ros1.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/rog_map.dir/include/rog_map/rog_map_core/raycaster.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/rog_map.dir/src/rog_map/counter_map.cpp.o[0m
+[100%] [32m[1mLinking CXX static library librog_map.a[0m
+[100%] Built target rog_map
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/lib/librog_map.a
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/environment/library_path.sh
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/environment/library_path.dsv
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//fmt/args.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//fmt/chrono.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//fmt/color.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//fmt/compile.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//fmt/core.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//fmt/format-inl.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//fmt/format.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//fmt/os.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//fmt/ostream.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//fmt/printf.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//fmt/ranges.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//fmt/std.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//fmt/xchar.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//rog_map/esdf_map.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//rog_map/free_cnt_map.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//rog_map/inf_map.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//rog_map/prob_map.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//rog_map/rog_map.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//rog_map/rog_map_core/common_lib.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//rog_map/rog_map_core/config.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//rog_map/rog_map_core/counter_map.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//rog_map/rog_map_core/raycaster.cpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//rog_map/rog_map_core/raycaster.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//rog_map/rog_map_core/sliding_map.h
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//rog_map_ros/rog_map_ros1.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//rog_map_ros/rog_map_ros2.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//super_utils/README.md
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//super_utils/backward.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//super_utils/color_msg_utils.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//super_utils/color_text.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//super_utils/eigen_alias.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//super_utils/fmt_eigen.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//super_utils/scope_timer.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//super_utils/tinycolormap.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//super_utils/type_utils.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/include//super_utils/yaml_loader.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/ament_index/resource_index/package_run_dependencies/rog_map
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/ament_index/resource_index/parent_prefix_path/rog_map
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/environment/ament_prefix_path.sh
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/environment/ament_prefix_path.dsv
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/environment/path.sh
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/environment/path.dsv
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/local_setup.bash
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/local_setup.sh
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/local_setup.zsh
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/local_setup.dsv
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/package.dsv
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/ament_index/resource_index/packages/rog_map
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/cmake/rog_mapConfig.cmake
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/cmake/rog_mapConfig-version.cmake
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/rog_map/share/rog_map/package.xml

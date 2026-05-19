@@ -1,0 +1,1 @@
+/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs/ament_cmake_core/mars_quadrotor_msgsConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/alux-autopilot22/SUPER-ROS2/build/rog_map/ament_cmake_core/rog_mapConfig-version.cmake

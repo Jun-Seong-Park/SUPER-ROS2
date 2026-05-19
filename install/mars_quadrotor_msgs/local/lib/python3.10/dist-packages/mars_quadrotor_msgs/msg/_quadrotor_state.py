@@ -1,0 +1,1 @@
+/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs/rosidl_generator_py/mars_quadrotor_msgs/msg/_quadrotor_state.py

@@ -1,0 +1,1 @@
+/home/alux-autopilot22/SUPER-ROS2/build/mars_quadrotor_msgs/rosidl_typesupport_fastrtps_c/mars_quadrotor_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_fastrtps_c.h

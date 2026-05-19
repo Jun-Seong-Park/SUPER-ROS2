@@ -1,0 +1,43 @@
+[35m[1mConsolidate compiler generated dependencies of target waypoint_mission[0m
+[100%] Built target waypoint_mission
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/backward.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/color_msg_utils.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/color_text.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/eigen_alias.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/fmt_eigen.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/matplotlibcpp.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/scope_timer.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/tinycolormap.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/type_utils.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/utils/yaml_loader.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/waypoint_mission/config.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/waypoint_mission/ros1_waypoint_planner.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/include/waypoint_mission/ros2_waypoint_planner.hpp
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner//launch/banchmark_high_speed.launch.py
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner//launch/benchmark_dense.launch
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner//launch/benchmark_dense.launch.py
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner//launch/benchmark_high_speed.launch
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner//launch/click_demo.launch
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner//launch/click_demo.launch.py
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner//config/waypoint.yaml
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner//data/benchmark.txt
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner//data/benchmark_dense.txt
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/ament_index/resource_index/package_run_dependencies/mission_planner
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/ament_index/resource_index/parent_prefix_path/mission_planner
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/environment/ament_prefix_path.sh
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/environment/ament_prefix_path.dsv
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/environment/path.sh
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/environment/path.dsv
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/local_setup.bash
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/local_setup.sh
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/local_setup.zsh
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/local_setup.dsv
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/package.dsv
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/ament_index/resource_index/packages/mission_planner
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/cmake/mission_plannerConfig.cmake
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/cmake/mission_plannerConfig-version.cmake
+-- Symlinking: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/share/mission_planner/package.xml
+-- Installing: /home/alux-autopilot22/SUPER-ROS2/install/mission_planner/lib/mission_planner/waypoint_mission
+-- Set runtime path of "/home/alux-autopilot22/SUPER-ROS2/install/mission_planner/lib/mission_planner/waypoint_mission" to ""
